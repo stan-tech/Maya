@@ -1,0 +1,235 @@
+<?xml version="1.0"?>
+<Autodesk_Cache_File>
+  <cacheType Type="OneFile" Format="mcx"/>
+  <time Range="250-50000"/>
+  <cacheTimePerFrame TimePerFrame="250"/>
+  <cacheVersion Version="2.0"/>
+  <extra>C:/Users/t_zakob/Desktop/maya2013_gettingstartedlessondata/GettingStarted2013LessonData/nParticles/Liquid_Simulation_2.mb</extra>
+  <extra>maya 2014 Preview Release 28 x64</extra>
+  <extra>t_zakob</extra>
+  <extra>NCloth Info for nParticle_WaterShape:</extra>
+  <extra>Passive Colliders:  geo_glass geo_pitcher</extra>
+  <extra>Constraints: none</extra>
+  <extra>nParticle_WaterShape.depthSort=0</extra>
+  <extra>nParticle_WaterShape.dieOnEmissionVolumeExit=0</extra>
+  <extra>nParticle_WaterShape.lifespanMode=0</extra>
+  <extra>nParticle_WaterShape.lifespanRandom=0</extra>
+  <extra>nParticle_WaterShape.expressionsAfterDynamics=0</extra>
+  <extra>nParticle_WaterShape.isDynamic=1</extra>
+  <extra>nParticle_WaterShape.dynamicsWeight=1</extra>
+  <extra>nParticle_WaterShape.forcesInWorld=1</extra>
+  <extra>nParticle_WaterShape.conserve=1</extra>
+  <extra>nParticle_WaterShape.emissionInWorld=1</extra>
+  <extra>nParticle_WaterShape.maxCount=-1</extra>
+  <extra>nParticle_WaterShape.levelOfDetail=1</extra>
+  <extra>nParticle_WaterShape.inheritFactor=0</extra>
+  <extra>nParticle_WaterShape.currentTime=1</extra>
+  <extra>nParticle_WaterShape.evaluationTime=1</extra>
+  <extra>nParticle_WaterShape.startFrame=1</extra>
+  <extra>nParticle_WaterShape.inputGeometrySpace=0</extra>
+  <extra>nParticle_WaterShape.enforceCountFromHistory=1</extra>
+  <extra>nParticle_WaterShape.targetGeometrySpace=2</extra>
+  <extra>nParticle_WaterShape.goalSmoothness=3</extra>
+  <extra>nParticle_WaterShape.cacheData=0</extra>
+  <extra>nParticle_WaterShape.traceDepth=10</extra>
+  <extra>nParticle_WaterShape.particleRenderType=7</extra>
+  <extra>nParticle_WaterShape.playFromCache=0</extra>
+  <extra>nParticle_WaterShape.thickness=0.1000000015</extra>
+  <extra>nParticle_WaterShape.bounce=0</extra>
+  <extra>nParticle_WaterShape.friction=0</extra>
+  <extra>nParticle_WaterShape.damp=0</extra>
+  <extra>nParticle_WaterShape.stickiness=0</extra>
+  <extra>nParticle_WaterShape.collideStrength=1</extra>
+  <extra>nParticle_WaterShape.collisionFlag=1</extra>
+  <extra>nParticle_WaterShape.selfCollisionFlag=1</extra>
+  <extra>nParticle_WaterShape.maxSelfCollisionIterations=4</extra>
+  <extra>nParticle_WaterShape.maxIterations=10000</extra>
+  <extra>nParticle_WaterShape.pointMass=1</extra>
+  <extra>nParticle_WaterShape.restLengthScale=1</extra>
+  <extra>nParticle_WaterShape.localForceX=0</extra>
+  <extra>nParticle_WaterShape.localForceY=0</extra>
+  <extra>nParticle_WaterShape.localForceZ=0</extra>
+  <extra>nParticle_WaterShape.localWindX=0</extra>
+  <extra>nParticle_WaterShape.localWindY=0</extra>
+  <extra>nParticle_WaterShape.localWindZ=0</extra>
+  <extra>nParticle_WaterShape.collide=1</extra>
+  <extra>nParticle_WaterShape.selfCollide=0</extra>
+  <extra>nParticle_WaterShape.collisionLayer=0</extra>
+  <extra>nParticle_WaterShape.windShadowDiffusion=0</extra>
+  <extra>nParticle_WaterShape.windShadowDistance=0</extra>
+  <extra>nParticle_WaterShape.airPushDistance=0</extra>
+  <extra>nParticle_WaterShape.airPushVorticity=0</extra>
+  <extra>nParticle_WaterShape.pushOut=0</extra>
+  <extra>nParticle_WaterShape.pushOutRadius=10</extra>
+  <extra>nParticle_WaterShape.crossoverPush=0</extra>
+  <extra>nParticle_WaterShape.trappedCheck=0</extra>
+  <extra>nParticle_WaterShape.forceField=0</extra>
+  <extra>nParticle_WaterShape.fieldMagnitude=1</extra>
+  <extra>nParticle_WaterShape.fieldDistance=1</extra>
+  <extra>nParticle_WaterShape.fieldScale[0].fieldScale_Position=0</extra>
+  <extra>nParticle_WaterShape.fieldScale[0].fieldScale_FloatValue=1</extra>
+  <extra>nParticle_WaterShape.fieldScale[0].fieldScale_Interp=1</extra>
+  <extra>nParticle_WaterShape.fieldScale[1].fieldScale_Position=1</extra>
+  <extra>nParticle_WaterShape.fieldScale[1].fieldScale_FloatValue=0</extra>
+  <extra>nParticle_WaterShape.fieldScale[1].fieldScale_Interp=1</extra>
+  <extra>nParticle_WaterShape.pointForceField=0</extra>
+  <extra>nParticle_WaterShape.pointFieldMagnitude=1</extra>
+  <extra>nParticle_WaterShape.selfAttract=0</extra>
+  <extra>nParticle_WaterShape.pointFieldDistance=2</extra>
+  <extra>nParticle_WaterShape.pointFieldDropoff[0].pointFieldDropoff_Position=0</extra>
+  <extra>nParticle_WaterShape.pointFieldDropoff[0].pointFieldDropoff_FloatValue=1</extra>
+  <extra>nParticle_WaterShape.pointFieldDropoff[0].pointFieldDropoff_Interp=1</extra>
+  <extra>nParticle_WaterShape.pointFieldDropoff[1].pointFieldDropoff_Position=1</extra>
+  <extra>nParticle_WaterShape.pointFieldDropoff[1].pointFieldDropoff_FloatValue=0</extra>
+  <extra>nParticle_WaterShape.pointFieldDropoff[1].pointFieldDropoff_Interp=1</extra>
+  <extra>nParticle_WaterShape.localSpaceOutput=0</extra>
+  <extra>nParticle_WaterShape.displayColorR=1</extra>
+  <extra>nParticle_WaterShape.displayColorG=0.8000000119</extra>
+  <extra>nParticle_WaterShape.displayColorB=0</extra>
+  <extra>nParticle_WaterShape.inputAttract=0</extra>
+  <extra>nParticle_WaterShape.inputAttractDamp=0.5</extra>
+  <extra>nParticle_WaterShape.ignoreSolverGravity=0</extra>
+  <extra>nParticle_WaterShape.ignoreSolverWind=0</extra>
+  <extra>nParticle_WaterShape.windSelfShadow=0</extra>
+  <extra>nParticle_WaterShape.drag=0</extra>
+  <extra>nParticle_WaterShape.collideWidthScale=0.6000000238</extra>
+  <extra>nParticle_WaterShape.selfCollideWidthScale=1</extra>
+  <extra>nParticle_WaterShape.emissionOverlapPruning=0</extra>
+  <extra>nParticle_WaterShape.computeRotation=0</extra>
+  <extra>nParticle_WaterShape.rotationFriction=0.8999999762</extra>
+  <extra>nParticle_WaterShape.rotationDamp=0.001000000047</extra>
+  <extra>nParticle_WaterShape.enableSPH=1</extra>
+  <extra>nParticle_WaterShape.incompressibility=20</extra>
+  <extra>nParticle_WaterShape.viscosity=0.1000000015</extra>
+  <extra>nParticle_WaterShape.viscosityScale[0].viscosityScale_Position=0</extra>
+  <extra>nParticle_WaterShape.viscosityScale[0].viscosityScale_FloatValue=1</extra>
+  <extra>nParticle_WaterShape.viscosityScale[0].viscosityScale_Interp=1</extra>
+  <extra>nParticle_WaterShape.viscosityScaleInputMax=1</extra>
+  <extra>nParticle_WaterShape.surfaceTension=0</extra>
+  <extra>nParticle_WaterShape.surfaceTensionScale[0].surfaceTensionScale_Position=0</extra>
+  <extra>nParticle_WaterShape.surfaceTensionScale[0].surfaceTensionScale_FloatValue=0.6000000238</extra>
+  <extra>nParticle_WaterShape.surfaceTensionScale[0].surfaceTensionScale_Interp=1</extra>
+  <extra>nParticle_WaterShape.surfaceTensionScaleInputMax=1</extra>
+  <extra>nParticle_WaterShape.restDensity=2</extra>
+  <extra>nParticle_WaterShape.radiusScaleSPH=2</extra>
+  <extra>nParticle_WaterShape.threshold=0.2</extra>
+  <extra>nParticle_WaterShape.radius=1.010222912</extra>
+  <extra>nParticle_WaterShape.radiusScale[0].radiusScale_Position=0</extra>
+  <extra>nParticle_WaterShape.radiusScale[0].radiusScale_FloatValue=1</extra>
+  <extra>nParticle_WaterShape.radiusScale[0].radiusScale_Interp=1</extra>
+  <extra>nParticle_WaterShape.radiusScaleInputMax=1</extra>
+  <extra>nParticle_WaterShape.radiusScaleRandomize=0</extra>
+  <extra>nParticle_WaterShape.massScale[0].massScale_Position=0</extra>
+  <extra>nParticle_WaterShape.massScale[0].massScale_FloatValue=1</extra>
+  <extra>nParticle_WaterShape.massScale[0].massScale_Interp=1</extra>
+  <extra>nParticle_WaterShape.massScaleInputMax=1</extra>
+  <extra>nParticle_WaterShape.massScaleRandomize=0</extra>
+  <extra>nParticle_WaterShape.pointFieldScale[0].pointFieldScale_Position=0</extra>
+  <extra>nParticle_WaterShape.pointFieldScale[0].pointFieldScale_FloatValue=1</extra>
+  <extra>nParticle_WaterShape.pointFieldScale[0].pointFieldScale_Interp=1</extra>
+  <extra>nParticle_WaterShape.pointFieldScaleInputMax=1</extra>
+  <extra>nParticle_WaterShape.frictionScale[0].frictionScale_Position=0</extra>
+  <extra>nParticle_WaterShape.frictionScale[0].frictionScale_FloatValue=1</extra>
+  <extra>nParticle_WaterShape.frictionScale[0].frictionScale_Interp=1</extra>
+  <extra>nParticle_WaterShape.frictionScaleInputMax=1</extra>
+  <extra>nParticle_WaterShape.frictionRandomize=0</extra>
+  <extra>nParticle_WaterShape.stickinessScale[0].stickinessScale_Position=0</extra>
+  <extra>nParticle_WaterShape.stickinessScale[0].stickinessScale_FloatValue=1</extra>
+  <extra>nParticle_WaterShape.stickinessScale[0].stickinessScale_Interp=1</extra>
+  <extra>nParticle_WaterShape.stickinessScaleInputMax=1</extra>
+  <extra>nParticle_WaterShape.stickinessRandomize=0</extra>
+  <extra>nParticle_WaterShape.collideStrengthScale[0].collideStrengthScale_Position=0</extra>
+  <extra>nParticle_WaterShape.collideStrengthScale[0].collideStrengthScale_FloatValue=1</extra>
+  <extra>nParticle_WaterShape.collideStrengthScale[0].collideStrengthScale_Interp=1</extra>
+  <extra>nParticle_WaterShape.collideStrengthScaleInputMax=1</extra>
+  <extra>nParticle_WaterShape.bounceScale[0].bounceScale_Position=0</extra>
+  <extra>nParticle_WaterShape.bounceScale[0].bounceScale_FloatValue=1</extra>
+  <extra>nParticle_WaterShape.bounceScale[0].bounceScale_Interp=1</extra>
+  <extra>nParticle_WaterShape.bounceScaleInputMax=1</extra>
+  <extra>nParticle_WaterShape.bounceRandomize=0</extra>
+  <extra>nParticle_WaterShape.opacity=0.3</extra>
+  <extra>nParticle_WaterShape.opacityScale[0].opacityScale_Position=0</extra>
+  <extra>nParticle_WaterShape.opacityScale[0].opacityScale_FloatValue=1</extra>
+  <extra>nParticle_WaterShape.opacityScale[0].opacityScale_Interp=1</extra>
+  <extra>nParticle_WaterShape.opacityScaleInputMax=1</extra>
+  <extra>nParticle_WaterShape.opacityScaleRandomize=0</extra>
+  <extra>nParticle_WaterShape.colorRed=0</extra>
+  <extra>nParticle_WaterShape.colorGreen=0</extra>
+  <extra>nParticle_WaterShape.colorBlue=0</extra>
+  <extra>nParticle_WaterShape.color[0].color_Position=0</extra>
+  <extra>nParticle_WaterShape.color[0].color_ColorR=0.5</extra>
+  <extra>nParticle_WaterShape.color[0].color_ColorG=0.6999999881</extra>
+  <extra>nParticle_WaterShape.color[0].color_ColorB=1</extra>
+  <extra>nParticle_WaterShape.color[0].color_Interp=1</extra>
+  <extra>nParticle_WaterShape.colorInputMax=1</extra>
+  <extra>nParticle_WaterShape.colorRandomize=0</extra>
+  <extra>nParticle_WaterShape.incandescence[0].incandescence_Position=0</extra>
+  <extra>nParticle_WaterShape.incandescence[0].incandescence_ColorR=0</extra>
+  <extra>nParticle_WaterShape.incandescence[0].incandescence_ColorG=0</extra>
+  <extra>nParticle_WaterShape.incandescence[0].incandescence_ColorB=0</extra>
+  <extra>nParticle_WaterShape.incandescence[0].incandescence_Interp=1</extra>
+  <extra>nParticle_WaterShape.incandescenceInputMax=1</extra>
+  <extra>nParticle_WaterShape.incandescenceRandomize=0</extra>
+  <extra>nParticle_WaterShape.blobbyRadiusScale=3.5</extra>
+  <extra>nParticle_WaterShape.motionStreak=0</extra>
+  <extra>nParticle_WaterShape.meshTriangleSize=0.2</extra>
+  <extra>nParticle_WaterShape.lifespan=1</extra>
+  <extra>nucleus1.visibility=1</extra>
+  <extra>nucleus1.translateX=0</extra>
+  <extra>nucleus1.translateY=0</extra>
+  <extra>nucleus1.translateZ=0</extra>
+  <extra>nucleus1.rotateX=0</extra>
+  <extra>nucleus1.rotateY=0</extra>
+  <extra>nucleus1.rotateZ=0</extra>
+  <extra>nucleus1.scaleX=1</extra>
+  <extra>nucleus1.scaleY=1</extra>
+  <extra>nucleus1.scaleZ=1</extra>
+  <extra>nucleus1.currentTime=1</extra>
+  <extra>nucleus1.startFrame=1</extra>
+  <extra>nucleus1.frameJumpLimit=1</extra>
+  <extra>nucleus1.enable=1</extra>
+  <extra>nucleus1.useTransform=1</extra>
+  <extra>nucleus1.gravity=9.800000191</extra>
+  <extra>nucleus1.gravityDirectionX=0</extra>
+  <extra>nucleus1.gravityDirectionY=-1</extra>
+  <extra>nucleus1.gravityDirectionZ=0</extra>
+  <extra>nucleus1.airDensity=1</extra>
+  <extra>nucleus1.windSpeed=0</extra>
+  <extra>nucleus1.windDirectionX=1</extra>
+  <extra>nucleus1.windDirectionY=0</extra>
+  <extra>nucleus1.windDirectionZ=0</extra>
+  <extra>nucleus1.windNoise=0</extra>
+  <extra>nucleus1.collisionLayerRange=4</extra>
+  <extra>nucleus1.collisionSoftness=0</extra>
+  <extra>nucleus1.usePlane=0</extra>
+  <extra>nucleus1.planeOriginX=0</extra>
+  <extra>nucleus1.planeOriginY=0</extra>
+  <extra>nucleus1.planeOriginZ=0</extra>
+  <extra>nucleus1.planeNormalX=0</extra>
+  <extra>nucleus1.planeNormalY=1</extra>
+  <extra>nucleus1.planeNormalZ=0</extra>
+  <extra>nucleus1.planeBounce=0</extra>
+  <extra>nucleus1.planeFriction=0.1000000015</extra>
+  <extra>nucleus1.planeStickiness=0</extra>
+  <extra>nucleus1.subSteps=10</extra>
+  <extra>nucleus1.maxCollisionIterations=15</extra>
+  <extra>nucleus1.timeScale=1</extra>
+  <extra>nucleus1.spaceScale=0.009999999776</extra>
+  <Channels>
+    <channel0 ChannelName="nParticle_WaterShape_id" ChannelType="DoubleArray" ChannelInterpretation="id" SamplingType="Regular" SamplingRate="250" StartTime="250" EndTime="50000"/>
+    <channel1 ChannelName="nParticle_WaterShape_count" ChannelType="DoubleArray" ChannelInterpretation="count" SamplingType="Regular" SamplingRate="250" StartTime="250" EndTime="50000"/>
+    <channel2 ChannelName="nParticle_WaterShape_position" ChannelType="FloatVectorArray" ChannelInterpretation="position" SamplingType="Regular" SamplingRate="250" StartTime="250" EndTime="50000"/>
+    <channel3 ChannelName="nParticle_WaterShape_velocity" ChannelType="FloatVectorArray" ChannelInterpretation="velocity" SamplingType="Regular" SamplingRate="250" StartTime="250" EndTime="50000"/>
+    <channel4 ChannelName="nParticle_WaterShape_acceleration" ChannelType="FloatVectorArray" ChannelInterpretation="acceleration" SamplingType="Regular" SamplingRate="250" StartTime="250" EndTime="50000"/>
+    <channel5 ChannelName="nParticle_WaterShape_worldPosition" ChannelType="FloatVectorArray" ChannelInterpretation="worldPosition" SamplingType="Regular" SamplingRate="250" StartTime="250" EndTime="50000"/>
+    <channel6 ChannelName="nParticle_WaterShape_worldVelocity" ChannelType="FloatVectorArray" ChannelInterpretation="worldVelocity" SamplingType="Regular" SamplingRate="250" StartTime="250" EndTime="50000"/>
+    <channel7 ChannelName="nParticle_WaterShape_worldVelocityInObjectSpace" ChannelType="FloatVectorArray" ChannelInterpretation="worldVelocityInObjectSpace" SamplingType="Regular" SamplingRate="250" StartTime="250" EndTime="50000"/>
+    <channel8 ChannelName="nParticle_WaterShape_mass" ChannelType="DoubleArray" ChannelInterpretation="mass" SamplingType="Regular" SamplingRate="250" StartTime="250" EndTime="50000"/>
+    <channel9 ChannelName="nParticle_WaterShape_birthTime" ChannelType="DoubleArray" ChannelInterpretation="birthTime" SamplingType="Regular" SamplingRate="250" StartTime="250" EndTime="50000"/>
+    <channel10 ChannelName="nParticle_WaterShape_age" ChannelType="DoubleArray" ChannelInterpretation="age" SamplingType="Regular" SamplingRate="250" StartTime="250" EndTime="50000"/>
+    <channel11 ChannelName="nParticle_WaterShape_finalLifespanPP" ChannelType="DoubleArray" ChannelInterpretation="finalLifespanPP" SamplingType="Regular" SamplingRate="250" StartTime="250" EndTime="50000"/>
+    <channel12 ChannelName="nParticle_WaterShape_lifespanPP" ChannelType="DoubleArray" ChannelInterpretation="lifespanPP" SamplingType="Regular" SamplingRate="250" StartTime="250" EndTime="50000"/>
+    <channel13 ChannelName="nParticle_WaterShape_rgbPP" ChannelType="FloatVectorArray" ChannelInterpretation="rgbPP" SamplingType="Regular" SamplingRate="250" StartTime="250" EndTime="50000"/>
+    <channel14 ChannelName="nParticle_WaterShape_opacityPP" ChannelType="DoubleArray" ChannelInterpretation="opacityPP" SamplingType="Regular" SamplingRate="250" StartTime="250" EndTime="50000"/>
+  </Channels>
+</Autodesk_Cache_File>

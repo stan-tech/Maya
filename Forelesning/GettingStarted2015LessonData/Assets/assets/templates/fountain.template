@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<templates>
+	<using package='maya'/>
+	<template name='fountain'>
+		<attribute name='translateX' type='maya.doubleLinear'>
+			<label>Translate X</label>
+		</attribute>
+		<attribute name='translateY' type='maya.doubleLinear'>
+			<label>Translate Y</label>
+		</attribute>
+		<attribute name='translateZ' type='maya.doubleLinear'>
+			<label>Translate Z</label>
+		</attribute>
+		<attribute name='translate' type='maya.double3'>
+			<label>Translate</label>
+		</attribute>
+		<attribute name='rotateX' type='maya.doubleAngle'>
+			<label>Rotate X</label>
+		</attribute>
+		<attribute name='rotateY' type='maya.doubleAngle'>
+			<label>Rotate Y</label>
+		</attribute>
+		<attribute name='rotateZ' type='maya.doubleAngle'>
+			<label>Rotate Z</label>
+		</attribute>
+		<attribute name='rotate' type='maya.double3'>
+			<label>Rotate</label>
+		</attribute>
+		<attribute name='scaleX' type='maya.double'>
+			<label>Scale X</label>
+		</attribute>
+		<attribute name='scaleY' type='maya.double'>
+			<label>Scale Y</label>
+		</attribute>
+		<attribute name='scaleZ' type='maya.double'>
+			<label>Scale Z</label>
+		</attribute>
+		<attribute name='scale' type='maya.double3'>
+			<label>Scale</label>
+		</attribute>
+		<attribute name='visibility' type='maya.bool'>
+			<label>Visibility</label>
+		</attribute>
+		<attribute name='brick_diffuse' type='maya.float'>
+			<label>Brick _diffuse</label>
+		</attribute>
+		<attribute name='brick_colorR' type='maya.float'>
+			<label>Brick _color R</label>
+		</attribute>
+		<attribute name='brick_colorG' type='maya.float'>
+			<label>Brick _color G</label>
+		</attribute>
+		<attribute name='brick_colorB' type='maya.float'>
+			<label>Brick _color B</label>
+		</attribute>
+		<attribute name='brick_color' type='maya.float3'>
+			<label>Brick _color</label>
+		</attribute>
+		<attribute name='brick_transparencyR' type='maya.float'>
+			<label>Brick _transparency R</label>
+		</attribute>
+		<attribute name='brick_transparencyG' type='maya.float'>
+			<label>Brick _transparency G</label>
+		</attribute>
+		<attribute name='brick_transparencyB' type='maya.float'>
+			<label>Brick _transparency B</label>
+		</attribute>
+		<attribute name='brick_transparency' type='maya.float3'>
+			<label>Brick _transparency</label>
+		</attribute>
+		<attribute name='brick_ambientColorR' type='maya.float'>
+			<label>Brick _ambient Color R</label>
+		</attribute>
+		<attribute name='brick_ambientColorG' type='maya.float'>
+			<label>Brick _ambient Color G</label>
+		</attribute>
+		<attribute name='brick_ambientColorB' type='maya.float'>
+			<label>Brick _ambient Color B</label>
+		</attribute>
+		<attribute name='brick_ambientColor' type='maya.float3'>
+			<label>Brick _ambient Color</label>
+		</attribute>
+		<attribute name='brick_incandescenceR' type='maya.float'>
+			<label>Brick _incandescence R</label>
+		</attribute>
+		<attribute name='brick_incandescenceG' type='maya.float'>
+			<label>Brick _incandescence G</label>
+		</attribute>
+		<attribute name='brick_incandescenceB' type='maya.float'>
+			<label>Brick _incandescence B</label>
+		</attribute>
+		<attribute name='brick_incandescence' type='maya.float3'>
+			<label>Brick _incandescence</label>
+		</attribute>
+		<attribute name='brick_translucence' type='maya.float'>
+			<label>Brick _translucence</label>
+		</attribute>
+		<attribute name='brick_translucenceFocus' type='maya.float'>
+			<label>Brick _translucence Focus</label>
+		</attribute>
+		<attribute name='brick_translucenceDepth' type='maya.float'>
+			<label>Brick _translucence Depth</label>
+		</attribute>
+		<attribute name='brick_glowIntensity' type='maya.float'>
+			<label>Brick _glow Intensity</label>
+		</attribute>
+		<attribute name='brick_materialAlphaGain' type='maya.float'>
+			<label>Brick _material Alpha Gain</label>
+		</attribute>
+		<attribute name='brick_surfaceThickness' type='maya.float'>
+			<label>Brick _surface Thickness</label>
+		</attribute>
+		<attribute name='brick_shadowAttenuation' type='maya.float'>
+			<label>Brick _shadow Attenuation</label>
+		</attribute>
+		<attribute name='brick_lightAbsorbance' type='maya.float'>
+			<label>Brick _light Absorbance</label>
+		</attribute>
+		<attribute name='brick_matteOpacity' type='maya.float'>
+			<label>Brick _matte Opacity</label>
+		</attribute>
+		<attribute name='water_diffuse' type='maya.float'>
+			<label>Water _diffuse</label>
+		</attribute>
+		<attribute name='water_colorR' type='maya.float'>
+			<label>Water _color R</label>
+		</attribute>
+		<attribute name='water_colorG' type='maya.float'>
+			<label>Water _color G</label>
+		</attribute>
+		<attribute name='water_colorB' type='maya.float'>
+			<label>Water _color B</label>
+		</attribute>
+		<attribute name='water_color' type='maya.float3'>
+			<label>Water _color</label>
+		</attribute>
+		<attribute name='water_transparencyR' type='maya.float'>
+			<label>Water _transparency R</label>
+		</attribute>
+		<attribute name='water_transparencyG' type='maya.float'>
+			<label>Water _transparency G</label>
+		</attribute>
+		<attribute name='water_transparencyB' type='maya.float'>
+			<label>Water _transparency B</label>
+		</attribute>
+		<attribute name='water_transparency' type='maya.float3'>
+			<label>Water _transparency</label>
+		</attribute>
+		<attribute name='water_ambientColorR' type='maya.float'>
+			<label>Water _ambient Color R</label>
+		</attribute>
+		<attribute name='water_ambientColorG' type='maya.float'>
+			<label>Water _ambient Color G</label>
+		</attribute>
+		<attribute name='water_ambientColorB' type='maya.float'>
+			<label>Water _ambient Color B</label>
+		</attribute>
+		<attribute name='water_ambientColor' type='maya.float3'>
+			<label>Water _ambient Color</label>
+		</attribute>
+		<attribute name='water_incandescenceR' type='maya.float'>
+			<label>Water _incandescence R</label>
+		</attribute>
+		<attribute name='water_incandescenceG' type='maya.float'>
+			<label>Water _incandescence G</label>
+		</attribute>
+		<attribute name='water_incandescenceB' type='maya.float'>
+			<label>Water _incandescence B</label>
+		</attribute>
+		<attribute name='water_incandescence' type='maya.float3'>
+			<label>Water _incandescence</label>
+		</attribute>
+		<attribute name='water_translucence' type='maya.float'>
+			<label>Water _translucence</label>
+		</attribute>
+		<attribute name='water_translucenceFocus' type='maya.float'>
+			<label>Water _translucence Focus</label>
+		</attribute>
+		<attribute name='water_translucenceDepth' type='maya.float'>
+			<label>Water _translucence Depth</label>
+		</attribute>
+		<attribute name='water_glowIntensity' type='maya.float'>
+			<label>Water _glow Intensity</label>
+		</attribute>
+		<attribute name='water_materialAlphaGain' type='maya.float'>
+			<label>Water _material Alpha Gain</label>
+		</attribute>
+		<attribute name='water_surfaceThickness' type='maya.float'>
+			<label>Water _surface Thickness</label>
+		</attribute>
+		<attribute name='water_shadowAttenuation' type='maya.float'>
+			<label>Water _shadow Attenuation</label>
+		</attribute>
+		<attribute name='water_lightAbsorbance' type='maya.float'>
+			<label>Water _light Absorbance</label>
+		</attribute>
+		<attribute name='water_matteOpacity' type='maya.float'>
+			<label>Water _matte Opacity</label>
+		</attribute>
+		<attribute name='detail_diffuse' type='maya.float'>
+			<label>Detail _diffuse</label>
+		</attribute>
+		<attribute name='detail_colorR' type='maya.float'>
+			<label>Detail _color R</label>
+		</attribute>
+		<attribute name='detail_colorG' type='maya.float'>
+			<label>Detail _color G</label>
+		</attribute>
+		<attribute name='detail_colorB' type='maya.float'>
+			<label>Detail _color B</label>
+		</attribute>
+		<attribute name='detail_color' type='maya.float3'>
+			<label>Detail _color</label>
+		</attribute>
+		<attribute name='detail_transparencyR' type='maya.float'>
+			<label>Detail _transparency R</label>
+		</attribute>
+		<attribute name='detail_transparencyG' type='maya.float'>
+			<label>Detail _transparency G</label>
+		</attribute>
+		<attribute name='detail_transparencyB' type='maya.float'>
+			<label>Detail _transparency B</label>
+		</attribute>
+		<attribute name='detail_transparency' type='maya.float3'>
+			<label>Detail _transparency</label>
+		</attribute>
+		<attribute name='detail_ambientColorR' type='maya.float'>
+			<label>Detail _ambient Color R</label>
+		</attribute>
+		<attribute name='detail_ambientColorG' type='maya.float'>
+			<label>Detail _ambient Color G</label>
+		</attribute>
+		<attribute name='detail_ambientColorB' type='maya.float'>
+			<label>Detail _ambient Color B</label>
+		</attribute>
+		<attribute name='detail_ambientColor' type='maya.float3'>
+			<label>Detail _ambient Color</label>
+		</attribute>
+		<attribute name='detail_incandescenceR' type='maya.float'>
+			<label>Detail _incandescence R</label>
+		</attribute>
+		<attribute name='detail_incandescenceG' type='maya.float'>
+			<label>Detail _incandescence G</label>
+		</attribute>
+		<attribute name='detail_incandescenceB' type='maya.float'>
+			<label>Detail _incandescence B</label>
+		</attribute>
+		<attribute name='detail_incandescence' type='maya.float3'>
+			<label>Detail _incandescence</label>
+		</attribute>
+		<attribute name='detail_translucence' type='maya.float'>
+			<label>Detail _translucence</label>
+		</attribute>
+		<attribute name='detail_translucenceFocus' type='maya.float'>
+			<label>Detail _translucence Focus</label>
+		</attribute>
+		<attribute name='detail_translucenceDepth' type='maya.float'>
+			<label>Detail _translucence Depth</label>
+		</attribute>
+		<attribute name='detail_glowIntensity' type='maya.float'>
+			<label>Detail _glow Intensity</label>
+		</attribute>
+		<attribute name='detail_materialAlphaGain' type='maya.float'>
+			<label>Detail _material Alpha Gain</label>
+		</attribute>
+		<attribute name='detail_surfaceThickness' type='maya.float'>
+			<label>Detail _surface Thickness</label>
+		</attribute>
+		<attribute name='detail_shadowAttenuation' type='maya.float'>
+			<label>Detail _shadow Attenuation</label>
+		</attribute>
+		<attribute name='detail_lightAbsorbance' type='maya.float'>
+			<label>Detail _light Absorbance</label>
+		</attribute>
+		<attribute name='detail_matteOpacity' type='maya.float'>
+			<label>Detail _matte Opacity</label>
+		</attribute>
+		<attribute name='detail_specularColorR' type='maya.float'>
+			<label>Detail _specular Color R</label>
+		</attribute>
+		<attribute name='detail_specularColorG' type='maya.float'>
+			<label>Detail _specular Color G</label>
+		</attribute>
+		<attribute name='detail_specularColorB' type='maya.float'>
+			<label>Detail _specular Color B</label>
+		</attribute>
+		<attribute name='detail_specularColor' type='maya.float3'>
+			<label>Detail _specular Color</label>
+		</attribute>
+		<attribute name='detail_reflectedColorR' type='maya.float'>
+			<label>Detail _reflected Color R</label>
+		</attribute>
+		<attribute name='detail_reflectedColorG' type='maya.float'>
+			<label>Detail _reflected Color G</label>
+		</attribute>
+		<attribute name='detail_reflectedColorB' type='maya.float'>
+			<label>Detail _reflected Color B</label>
+		</attribute>
+		<attribute name='detail_reflectedColor' type='maya.float3'>
+			<label>Detail _reflected Color</label>
+		</attribute>
+		<attribute name='detail_cosinePower' type='maya.float'>
+			<label>Detail _cosine Power</label>
+		</attribute>
+		<attribute name='spread' type='maya.double'>
+			<label>Spread</label>
+		</attribute>
+		<attribute name='speed' type='maya.double'>
+			<label>Speed</label>
+		</attribute>
+		<attribute name='rate' type='maya.double'>
+			<label>Rate</label>
+		</attribute>
+		<attribute name='speedRandom' type='maya.double'>
+			<label>Speed Random</label>
+		</attribute>
+	</template>
+	<view name='EnvironmentArtist' template='fountain'>
+		<group name='fountain_GEO'>
+			<property name='translate'/>
+			<property name='rotate'/>
+			<property name='scale'/>
+			<property name='visibility'/>
+			<property name='spread'/>
+			<property name='speed'/>
+			<property name='rate'/>
+			<property name='Speed Random'/>
+		</group>
+	</view>
+	<view name='ShadingArtist' template='fountain'>
+		<group name='brickShader'>
+			<property name='brick_diffuse'/>
+			<property name='brick_color'/>
+			<property name='brick_transparency'/>
+			<property name='brick_ambientColor'/>
+			<property name='brick_incandescence'/>
+			<property name='brick_translucence'/>
+			<property name='brick_translucenceFocus'/>
+			<property name='brick_translucenceDepth'/>
+			<property name='brick_glowIntensity'/>
+			<property name='brick_materialAlphaGain'/>
+			<property name='brick_surfaceThickness'/>
+			<property name='brick_shadowAttenuation'/>
+			<property name='brick_lightAbsorbance'/>
+			<property name='brick_matteOpacity'/>
+		</group>
+		<group name='waterShader'>
+			<property name='water_diffuse'/>
+			<property name='water_color'/>
+			<property name='water_transparency'/>
+			<property name='water_ambientColor'/>
+			<property name='water_incandescence'/>
+			<property name='water_translucence'/>
+			<property name='water_translucenceFocus'/>
+			<property name='water_translucenceDepth'/>
+			<property name='water_glowIntensity'/>
+			<property name='water_materialAlphaGain'/>
+			<property name='water_surfaceThickness'/>
+			<property name='water_shadowAttenuation'/>
+			<property name='water_lightAbsorbance'/>
+			<property name='water_matteOpacity'/>
+		</group>
+		<group name='detalilShader'>
+			<property name='detail_diffuse'/>
+			<property name='detail_color'/>
+			<property name='detail_transparency'/>
+			<property name='detail_ambientColor'/>
+			<property name='detail_incandescence'/>
+			<property name='detail_translucence'/>
+			<property name='detail_translucenceFocus'/>
+			<property name='detail_translucenceDepth'/>
+			<property name='detail_glowIntensity'/>
+			<property name='detail_materialAlphaGain'/>
+			<property name='detail_surfaceThickness'/>
+			<property name='detail_shadowAttenuation'/>
+			<property name='detail_lightAbsorbance'/>
+			<property name='detail_matteOpacity'/>
+			<property name='detail_specularColor'/>
+			<property name='detail_reflectedColor'/>
+			<property name='detail_cosinePower'/>
+		</group>
+	</view>
+</templates>

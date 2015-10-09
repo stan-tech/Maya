@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<templates>
+	<using package='maya'/>
+	<template name='environmentLights'>
+		<attribute name='EnvironmentLight_1_translateX' type='maya.doubleLinear'>
+			<label>Environment Light _1 _translate X</label>
+		</attribute>
+		<attribute name='EnvironmentLight_1_translateY' type='maya.doubleLinear'>
+			<label>Environment Light _1 _translate Y</label>
+		</attribute>
+		<attribute name='EnvironmentLight_1_translateZ' type='maya.doubleLinear'>
+			<label>Environment Light _1 _translate Z</label>
+		</attribute>
+		<attribute name='EnvironmentLight_1_translate' type='maya.double3'>
+			<label>Environment Light _1 _translate</label>
+		</attribute>
+		<attribute name='EnvironmentLight_1_rotateX' type='maya.doubleAngle'>
+			<label>Environment Light _1 _rotate X</label>
+		</attribute>
+		<attribute name='EnvironmentLight_1_rotateY' type='maya.doubleAngle'>
+			<label>Environment Light _1 _rotate Y</label>
+		</attribute>
+		<attribute name='EnvironmentLight_1_rotateZ' type='maya.doubleAngle'>
+			<label>Environment Light _1 _rotate Z</label>
+		</attribute>
+		<attribute name='EnvironmentLight_1_rotate' type='maya.double3'>
+			<label>Environment Light _1 _rotate</label>
+		</attribute>
+		<attribute name='EnvironmentLight_2_translateX' type='maya.doubleLinear'>
+			<label>Environment Light _2 _translate X</label>
+		</attribute>
+		<attribute name='EnvironmentLight_2_translateY' type='maya.doubleLinear'>
+			<label>Environment Light _2 _translate Y</label>
+		</attribute>
+		<attribute name='EnvironmentLight_2_translateZ' type='maya.doubleLinear'>
+			<label>Environment Light _2 _translate Z</label>
+		</attribute>
+		<attribute name='EnvironmentLight_2_translate' type='maya.double3'>
+			<label>Environment Light _2 _translate</label>
+		</attribute>
+		<attribute name='EnvironmentLight_2_rotateX' type='maya.doubleAngle'>
+			<label>Environment Light _2 _rotate X</label>
+		</attribute>
+		<attribute name='EnvironmentLight_2_rotateY' type='maya.doubleAngle'>
+			<label>Environment Light _2 _rotate Y</label>
+		</attribute>
+		<attribute name='EnvironmentLight_2_rotateZ' type='maya.doubleAngle'>
+			<label>Environment Light _2 _rotate Z</label>
+		</attribute>
+		<attribute name='EnvironmentLight_2_rotate' type='maya.double3'>
+			<label>Environment Light _2 _rotate</label>
+		</attribute>
+		<attribute name='EnvironmentLight_3_translateX' type='maya.doubleLinear'>
+			<label>Environment Light _3 _translate X</label>
+		</attribute>
+		<attribute name='EnvironmentLight_3_translateY' type='maya.doubleLinear'>
+			<label>Environment Light _3 _translate Y</label>
+		</attribute>
+		<attribute name='EnvironmentLight_3_translateZ' type='maya.doubleLinear'>
+			<label>Environment Light _3 _translate Z</label>
+		</attribute>
+		<attribute name='EnvironmentLight_3_translate' type='maya.double3'>
+			<label>Environment Light _3 _translate</label>
+		</attribute>
+		<attribute name='EnvironmentLight_3_rotateX' type='maya.doubleAngle'>
+			<label>Environment Light _3 _rotate X</label>
+		</attribute>
+		<attribute name='EnvironmentLight_3_rotateY' type='maya.doubleAngle'>
+			<label>Environment Light _3 _rotate Y</label>
+		</attribute>
+		<attribute name='EnvironmentLight_3_rotateZ' type='maya.doubleAngle'>
+			<label>Environment Light _3 _rotate Z</label>
+		</attribute>
+		<attribute name='EnvironmentLight_3_rotate' type='maya.double3'>
+			<label>Environment Light _3 _rotate</label>
+		</attribute>
+		<attribute name='EnvironmentLight_1_colorR' type='maya.float'>
+			<label>Environment Light _1 _color R</label>
+		</attribute>
+		<attribute name='EnvironmentLight_1_colorG' type='maya.float'>
+			<label>Environment Light _1 _color G</label>
+		</attribute>
+		<attribute name='EnvironmentLight_1_colorB' type='maya.float'>
+			<label>Environment Light _1 _color B</label>
+		</attribute>
+		<attribute name='EnvironmentLight_1_color' type='maya.float3'>
+			<label>Environment Light _1 _color</label>
+		</attribute>
+		<attribute name='EnvironmentLight_1_intensity' type='maya.float'>
+			<label>Environment Light _1 _intensity</label>
+		</attribute>
+		<attribute name='EnvironmentLight_1_useRayTraceShadows' type='maya.bool'>
+			<label>Environment Light _1 _use Ray Trace Shadows</label>
+		</attribute>
+		<attribute name='EnvironmentLight_1_shadColorR' type='maya.float'>
+			<label>Environment Light _1 _shad Color R</label>
+		</attribute>
+		<attribute name='EnvironmentLight_1_shadColorG' type='maya.float'>
+			<label>Environment Light _1 _shad Color G</label>
+		</attribute>
+		<attribute name='EnvironmentLight_1_shadColorB' type='maya.float'>
+			<label>Environment Light _1 _shad Color B</label>
+		</attribute>
+		<attribute name='EnvironmentLight_1_shadowColor' type='maya.float3'>
+			<label>Environment Light _1 _shadow Color</label>
+		</attribute>
+		<attribute name='EnvironmentLight_1_useDepthMapShadows' type='maya.bool'>
+			<label>Environment Light _1 _use Depth Map Shadows</label>
+		</attribute>
+		<attribute name='EnvironmentLight_1_dmapBias' type='maya.float'>
+			<label>Environment Light _1 _dmap Bias</label>
+		</attribute>
+		<attribute name='EnvironmentLight_2_colorR' type='maya.float'>
+			<label>Environment Light _2 _color R</label>
+		</attribute>
+		<attribute name='EnvironmentLight_2_colorG' type='maya.float'>
+			<label>Environment Light _2 _color G</label>
+		</attribute>
+		<attribute name='EnvironmentLight_2_colorB' type='maya.float'>
+			<label>Environment Light _2 _color B</label>
+		</attribute>
+		<attribute name='EnvironmentLight_2_color' type='maya.float3'>
+			<label>Environment Light _2 _color</label>
+		</attribute>
+		<attribute name='EnvironmentLight_2_intensity' type='maya.float'>
+			<label>Environment Light _2 _intensity</label>
+		</attribute>
+		<attribute name='EnvironmentLight_2_useRayTraceShadows' type='maya.bool'>
+			<label>Environment Light _2 _use Ray Trace Shadows</label>
+		</attribute>
+		<attribute name='EnvironmentLight_2_shadColorR' type='maya.float'>
+			<label>Environment Light _2 _shad Color R</label>
+		</attribute>
+		<attribute name='EnvironmentLight_2_shadColorG' type='maya.float'>
+			<label>Environment Light _2 _shad Color G</label>
+		</attribute>
+		<attribute name='EnvironmentLight_2_shadColorB' type='maya.float'>
+			<label>Environment Light _2 _shad Color B</label>
+		</attribute>
+		<attribute name='EnvironmentLight_2_shadowColor' type='maya.float3'>
+			<label>Environment Light _2 _shadow Color</label>
+		</attribute>
+		<attribute name='EnvironmentLight_2_useDepthMapShadows' type='maya.bool'>
+			<label>Environment Light _2 _use Depth Map Shadows</label>
+		</attribute>
+		<attribute name='EnvironmentLight_2_dmapBias' type='maya.float'>
+			<label>Environment Light _2 _dmap Bias</label>
+		</attribute>
+		<attribute name='EnvironmentLight_3_colorR' type='maya.float'>
+			<label>Environment Light _3 _color R</label>
+		</attribute>
+		<attribute name='EnvironmentLight_3_colorG' type='maya.float'>
+			<label>Environment Light _3 _color G</label>
+		</attribute>
+		<attribute name='EnvironmentLight_3_colorB' type='maya.float'>
+			<label>Environment Light _3 _color B</label>
+		</attribute>
+		<attribute name='EnvironmentLight_3_color' type='maya.float3'>
+			<label>Environment Light _3 _color</label>
+		</attribute>
+		<attribute name='EnvironmentLight_3_intensity' type='maya.float'>
+			<label>Environment Light _3 _intensity</label>
+		</attribute>
+		<attribute name='EnvironmentLight_3_useRayTraceShadows' type='maya.bool'>
+			<label>Environment Light _3 _use Ray Trace Shadows</label>
+		</attribute>
+		<attribute name='EnvironmentLight_3_shadColorR' type='maya.float'>
+			<label>Environment Light _3 _shad Color R</label>
+		</attribute>
+		<attribute name='EnvironmentLight_3_shadColorG' type='maya.float'>
+			<label>Environment Light _3 _shad Color G</label>
+		</attribute>
+		<attribute name='EnvironmentLight_3_shadColorB' type='maya.float'>
+			<label>Environment Light _3 _shad Color B</label>
+		</attribute>
+		<attribute name='EnvironmentLight_3_shadowColor' type='maya.float3'>
+			<label>Environment Light _3 _shadow Color</label>
+		</attribute>
+		<attribute name='EnvironmentLight_3_useDepthMapShadows' type='maya.bool'>
+			<label>Environment Light _3 _use Depth Map Shadows</label>
+		</attribute>
+		<attribute name='EnvironmentLight_3_dmapBias' type='maya.float'>
+			<label>Environment Light _3 _dmap Bias</label>
+		</attribute>
+	</template>
+	<view name='GlobalTransform' template='environmentLights'>
+		<group name='EnvironmentLight_1'>
+			<property name='EnvironmentLight_1_translate'/>
+			<property name='EnvironmentLight_1_rotate'/>
+		</group>
+		<group name='EnvironmentLight_2'>
+			<property name='EnvironmentLight_2_translate'/>
+			<property name='EnvironmentLight_2_rotate'/>
+		</group>
+		<group name='EnvironmentLight_3'>
+			<property name='EnvironmentLight_3_translate'/>
+			<property name='EnvironmentLight_3_rotate'/>
+		</group>
+	</view>
+	<view name='GlobalLighting' template='environmentLights'>
+		<group name='EnvironmentLight_Shape1'>
+			<property name='EnvironmentLight_1_color'/>
+			<property name='EnvironmentLight_1_intensity'/>
+			<property name='EnvironmentLight_1_useRayTraceShadows'/>
+			<property name='EnvironmentLight_1_shadowColor'/>
+			<property name='EnvironmentLight_1_useDepthMapShadows'/>
+			<property name='EnvironmentLight_1_dmapBias'/>
+		</group>
+		<group name='EnvironmentLight_Shape2'>
+			<property name='EnvironmentLight_2_color'/>
+			<property name='EnvironmentLight_2_intensity'/>
+			<property name='EnvironmentLight_2_useRayTraceShadows'/>
+			<property name='EnvironmentLight_2_shadowColor'/>
+			<property name='EnvironmentLight_2_useDepthMapShadows'/>
+			<property name='EnvironmentLight_2_dmapBias'/>
+		</group>
+		<group name='EnvironmentLight_Shape3'>
+			<property name='EnvironmentLight_3_color'/>
+			<property name='EnvironmentLight_3_intensity'/>
+			<property name='EnvironmentLight_3_useRayTraceShadows'/>
+			<property name='EnvironmentLight_3_shadowColor'/>
+			<property name='EnvironmentLight_3_useDepthMapShadows'/>
+			<property name='EnvironmentLight_3_dmapBias'/>
+		</group>
+	</view>
+	<view name='EnvironmentLight1' template='environmentLights'>
+		<group name='EnvironmentLight_Shape1'>
+			<property name='EnvironmentLight_1_color'/>
+			<property name='EnvironmentLight_1_intensity'/>
+			<property name='EnvironmentLight_1_useRayTraceShadows'/>
+			<property name='EnvironmentLight_1_shadowColor'/>
+			<property name='EnvironmentLight_1_useDepthMapShadows'/>
+			<property name='EnvironmentLight_1_dmapBias'/>
+		</group>
+	</view>
+	<view name='EnvironmentLight2' template='environmentLights'>
+		<group name='EnvironmentLight_Shape2'>
+			<property name='EnvironmentLight_2_color'/>
+			<property name='EnvironmentLight_2_intensity'/>
+			<property name='EnvironmentLight_2_useRayTraceShadows'/>
+			<property name='EnvironmentLight_2_shadowColor'/>
+			<property name='EnvironmentLight_2_useDepthMapShadows'/>
+			<property name='EnvironmentLight_2_dmapBias'/>
+		</group>
+	</view>
+	<view name='EnvironmentLight3' template='environmentLights'>
+		<group name='EnvironmentLight_Shape3'>
+			<property name='EnvironmentLight_3_color'/>
+			<property name='EnvironmentLight_3_intensity'/>
+			<property name='EnvironmentLight_3_useRayTraceShadows'/>
+			<property name='EnvironmentLight_3_shadowColor'/>
+			<property name='EnvironmentLight_3_useDepthMapShadows'/>
+			<property name='EnvironmentLight_3_dmapBias'/>
+		</group>
+	</view>
+</templates>

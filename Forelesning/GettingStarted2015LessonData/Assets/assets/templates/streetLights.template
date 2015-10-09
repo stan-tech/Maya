@@ -1,0 +1,1658 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<templates>
+	<using package='maya'/>
+	<template name='streetLights'>
+		<attribute name='StreetLamp_1_translateX' type='maya.doubleLinear'>
+			<label>Street Lamp _1 _translate X</label>
+		</attribute>
+		<attribute name='StreetLamp_1_translateY' type='maya.doubleLinear'>
+			<label>Street Lamp _1 _translate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_1_translateZ' type='maya.doubleLinear'>
+			<label>Street Lamp _1 _translate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_1_translate' type='maya.double3'>
+			<label>Street Lamp _1 _translate</label>
+		</attribute>
+		<attribute name='StreetLamp_1_rotateX' type='maya.doubleAngle'>
+			<label>Street Lamp _1 _rotate X</label>
+		</attribute>
+		<attribute name='StreetLamp_1_rotateY' type='maya.doubleAngle'>
+			<label>Street Lamp _1 _rotate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_1_rotateZ' type='maya.doubleAngle'>
+			<label>Street Lamp _1 _rotate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_1_rotate' type='maya.double3'>
+			<label>Street Lamp _1 _rotate</label>
+		</attribute>
+		<attribute name='StreetLamp_2_translateX' type='maya.doubleLinear'>
+			<label>Street Lamp _2 _translate X</label>
+		</attribute>
+		<attribute name='StreetLamp_2_translateY' type='maya.doubleLinear'>
+			<label>Street Lamp _2 _translate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_2_translateZ' type='maya.doubleLinear'>
+			<label>Street Lamp _2 _translate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_2_translate' type='maya.double3'>
+			<label>Street Lamp _2 _translate</label>
+		</attribute>
+		<attribute name='StreetLamp_2_rotateX' type='maya.doubleAngle'>
+			<label>Street Lamp _2 _rotate X</label>
+		</attribute>
+		<attribute name='StreetLamp_2_rotateY' type='maya.doubleAngle'>
+			<label>Street Lamp _2 _rotate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_2_rotateZ' type='maya.doubleAngle'>
+			<label>Street Lamp _2 _rotate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_2_rotate' type='maya.double3'>
+			<label>Street Lamp _2 _rotate</label>
+		</attribute>
+		<attribute name='StreetLamp_3_translateX' type='maya.doubleLinear'>
+			<label>Street Lamp _3 _translate X</label>
+		</attribute>
+		<attribute name='StreetLamp_3_translateY' type='maya.doubleLinear'>
+			<label>Street Lamp _3 _translate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_3_translateZ' type='maya.doubleLinear'>
+			<label>Street Lamp _3 _translate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_3_translate' type='maya.double3'>
+			<label>Street Lamp _3 _translate</label>
+		</attribute>
+		<attribute name='StreetLamp_3_rotateX' type='maya.doubleAngle'>
+			<label>Street Lamp _3 _rotate X</label>
+		</attribute>
+		<attribute name='StreetLamp_3_rotateY' type='maya.doubleAngle'>
+			<label>Street Lamp _3 _rotate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_3_rotateZ' type='maya.doubleAngle'>
+			<label>Street Lamp _3 _rotate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_3_rotate' type='maya.double3'>
+			<label>Street Lamp _3 _rotate</label>
+		</attribute>
+		<attribute name='StreetLamp_4_translateX' type='maya.doubleLinear'>
+			<label>Street Lamp _4 _translate X</label>
+		</attribute>
+		<attribute name='StreetLamp_4_translateY' type='maya.doubleLinear'>
+			<label>Street Lamp _4 _translate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_4_translateZ' type='maya.doubleLinear'>
+			<label>Street Lamp _4 _translate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_4_translate' type='maya.double3'>
+			<label>Street Lamp _4 _translate</label>
+		</attribute>
+		<attribute name='StreetLamp_4_rotateX' type='maya.doubleAngle'>
+			<label>Street Lamp _4 _rotate X</label>
+		</attribute>
+		<attribute name='StreetLamp_4_rotateY' type='maya.doubleAngle'>
+			<label>Street Lamp _4 _rotate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_4_rotateZ' type='maya.doubleAngle'>
+			<label>Street Lamp _4 _rotate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_4_rotate' type='maya.double3'>
+			<label>Street Lamp _4 _rotate</label>
+		</attribute>
+		<attribute name='StreetLamp_5_translateX' type='maya.doubleLinear'>
+			<label>Street Lamp _5 _translate X</label>
+		</attribute>
+		<attribute name='StreetLamp_5_translateY' type='maya.doubleLinear'>
+			<label>Street Lamp _5 _translate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_5_translateZ' type='maya.doubleLinear'>
+			<label>Street Lamp _5 _translate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_5_translate' type='maya.double3'>
+			<label>Street Lamp _5 _translate</label>
+		</attribute>
+		<attribute name='StreetLamp_5_rotateX' type='maya.doubleAngle'>
+			<label>Street Lamp _5 _rotate X</label>
+		</attribute>
+		<attribute name='StreetLamp_5_rotateY' type='maya.doubleAngle'>
+			<label>Street Lamp _5 _rotate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_5_rotateZ' type='maya.doubleAngle'>
+			<label>Street Lamp _5 _rotate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_5_rotate' type='maya.double3'>
+			<label>Street Lamp _5 _rotate</label>
+		</attribute>
+		<attribute name='StreetLamp_6_translateX' type='maya.doubleLinear'>
+			<label>Street Lamp _6 _translate X</label>
+		</attribute>
+		<attribute name='StreetLamp_6_translateY' type='maya.doubleLinear'>
+			<label>Street Lamp _6 _translate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_6_translateZ' type='maya.doubleLinear'>
+			<label>Street Lamp _6 _translate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_6_translate' type='maya.double3'>
+			<label>Street Lamp _6 _translate</label>
+		</attribute>
+		<attribute name='StreetLamp_6_rotateX' type='maya.doubleAngle'>
+			<label>Street Lamp _6 _rotate X</label>
+		</attribute>
+		<attribute name='StreetLamp_6_rotateY' type='maya.doubleAngle'>
+			<label>Street Lamp _6 _rotate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_6_rotateZ' type='maya.doubleAngle'>
+			<label>Street Lamp _6 _rotate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_6_rotate' type='maya.double3'>
+			<label>Street Lamp _6 _rotate</label>
+		</attribute>
+		<attribute name='StreetLamp_7_translateX' type='maya.doubleLinear'>
+			<label>Street Lamp _7 _translate X</label>
+		</attribute>
+		<attribute name='StreetLamp_7_translateY' type='maya.doubleLinear'>
+			<label>Street Lamp _7 _translate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_7_translateZ' type='maya.doubleLinear'>
+			<label>Street Lamp _7 _translate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_7_translate' type='maya.double3'>
+			<label>Street Lamp _7 _translate</label>
+		</attribute>
+		<attribute name='StreetLamp_7_rotateX' type='maya.doubleAngle'>
+			<label>Street Lamp _7 _rotate X</label>
+		</attribute>
+		<attribute name='StreetLamp_7_rotateY' type='maya.doubleAngle'>
+			<label>Street Lamp _7 _rotate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_7_rotateZ' type='maya.doubleAngle'>
+			<label>Street Lamp _7 _rotate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_7_rotate' type='maya.double3'>
+			<label>Street Lamp _7 _rotate</label>
+		</attribute>
+		<attribute name='StreetLamp_8_translateX' type='maya.doubleLinear'>
+			<label>Street Lamp _8 _translate X</label>
+		</attribute>
+		<attribute name='StreetLamp_8_translateY' type='maya.doubleLinear'>
+			<label>Street Lamp _8 _translate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_8_translateZ' type='maya.doubleLinear'>
+			<label>Street Lamp _8 _translate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_8_translate' type='maya.double3'>
+			<label>Street Lamp _8 _translate</label>
+		</attribute>
+		<attribute name='StreetLamp_8_rotateX' type='maya.doubleAngle'>
+			<label>Street Lamp _8 _rotate X</label>
+		</attribute>
+		<attribute name='StreetLamp_8_rotateY' type='maya.doubleAngle'>
+			<label>Street Lamp _8 _rotate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_8_rotateZ' type='maya.doubleAngle'>
+			<label>Street Lamp _8 _rotate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_8_rotate' type='maya.double3'>
+			<label>Street Lamp _8 _rotate</label>
+		</attribute>
+		<attribute name='StreetLamp_9_translateX' type='maya.doubleLinear'>
+			<label>Street Lamp _9 _translate X</label>
+		</attribute>
+		<attribute name='StreetLamp_9_translateY' type='maya.doubleLinear'>
+			<label>Street Lamp _9 _translate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_9_translateZ' type='maya.doubleLinear'>
+			<label>Street Lamp _9 _translate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_9_translate' type='maya.double3'>
+			<label>Street Lamp _9 _translate</label>
+		</attribute>
+		<attribute name='StreetLamp_9_rotateX' type='maya.doubleAngle'>
+			<label>Street Lamp _9 _rotate X</label>
+		</attribute>
+		<attribute name='StreetLamp_9_rotateY' type='maya.doubleAngle'>
+			<label>Street Lamp _9 _rotate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_9_rotateZ' type='maya.doubleAngle'>
+			<label>Street Lamp _9 _rotate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_9_rotate' type='maya.double3'>
+			<label>Street Lamp _9 _rotate</label>
+		</attribute>
+		<attribute name='StreetLamp_10_translateX' type='maya.doubleLinear'>
+			<label>Street Lamp _10 _translate X</label>
+		</attribute>
+		<attribute name='StreetLamp_10_translateY' type='maya.doubleLinear'>
+			<label>Street Lamp _10 _translate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_10_translateZ' type='maya.doubleLinear'>
+			<label>Street Lamp _10 _translate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_10_translate' type='maya.double3'>
+			<label>Street Lamp _10 _translate</label>
+		</attribute>
+		<attribute name='StreetLamp_10_rotateX' type='maya.doubleAngle'>
+			<label>Street Lamp _10 _rotate X</label>
+		</attribute>
+		<attribute name='StreetLamp_10_rotateY' type='maya.doubleAngle'>
+			<label>Street Lamp _10 _rotate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_10_rotateZ' type='maya.doubleAngle'>
+			<label>Street Lamp _10 _rotate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_10_rotate' type='maya.double3'>
+			<label>Street Lamp _10 _rotate</label>
+		</attribute>
+		<attribute name='StreetLamp_11_translateX' type='maya.doubleLinear'>
+			<label>Street Lamp _11 _translate X</label>
+		</attribute>
+		<attribute name='StreetLamp_11_translateY' type='maya.doubleLinear'>
+			<label>Street Lamp _11 _translate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_11_translateZ' type='maya.doubleLinear'>
+			<label>Street Lamp _11 _translate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_11_translate' type='maya.double3'>
+			<label>Street Lamp _11 _translate</label>
+		</attribute>
+		<attribute name='StreetLamp_11_rotateX' type='maya.doubleAngle'>
+			<label>Street Lamp _11 _rotate X</label>
+		</attribute>
+		<attribute name='StreetLamp_11_rotateY' type='maya.doubleAngle'>
+			<label>Street Lamp _11 _rotate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_11_rotateZ' type='maya.doubleAngle'>
+			<label>Street Lamp _11 _rotate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_11_rotate' type='maya.double3'>
+			<label>Street Lamp _11 _rotate</label>
+		</attribute>
+		<attribute name='StreetLamp_12_translateX' type='maya.doubleLinear'>
+			<label>Street Lamp _12 _translate X</label>
+		</attribute>
+		<attribute name='StreetLamp_12_translateY' type='maya.doubleLinear'>
+			<label>Street Lamp _12 _translate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_12_translateZ' type='maya.doubleLinear'>
+			<label>Street Lamp _12 _translate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_12_translate' type='maya.double3'>
+			<label>Street Lamp _12 _translate</label>
+		</attribute>
+		<attribute name='StreetLamp_12_rotateX' type='maya.doubleAngle'>
+			<label>Street Lamp _12 _rotate X</label>
+		</attribute>
+		<attribute name='StreetLamp_12_rotateY' type='maya.doubleAngle'>
+			<label>Street Lamp _12 _rotate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_12_rotateZ' type='maya.doubleAngle'>
+			<label>Street Lamp _12 _rotate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_12_rotate' type='maya.double3'>
+			<label>Street Lamp _12 _rotate</label>
+		</attribute>
+		<attribute name='StreetLamp_13_translateX' type='maya.doubleLinear'>
+			<label>Street Lamp _13 _translate X</label>
+		</attribute>
+		<attribute name='StreetLamp_13_translateY' type='maya.doubleLinear'>
+			<label>Street Lamp _13 _translate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_13_translateZ' type='maya.doubleLinear'>
+			<label>Street Lamp _13 _translate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_13_translate' type='maya.double3'>
+			<label>Street Lamp _13 _translate</label>
+		</attribute>
+		<attribute name='StreetLamp_13_rotateX' type='maya.doubleAngle'>
+			<label>Street Lamp _13 _rotate X</label>
+		</attribute>
+		<attribute name='StreetLamp_13_rotateY' type='maya.doubleAngle'>
+			<label>Street Lamp _13 _rotate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_13_rotateZ' type='maya.doubleAngle'>
+			<label>Street Lamp _13 _rotate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_13_rotate' type='maya.double3'>
+			<label>Street Lamp _13 _rotate</label>
+		</attribute>
+		<attribute name='StreetLamp_14_translateX' type='maya.doubleLinear'>
+			<label>Street Lamp _14 _translate X</label>
+		</attribute>
+		<attribute name='StreetLamp_14_translateY' type='maya.doubleLinear'>
+			<label>Street Lamp _14 _translate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_14_translateZ' type='maya.doubleLinear'>
+			<label>Street Lamp _14 _translate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_14_translate' type='maya.double3'>
+			<label>Street Lamp _14 _translate</label>
+		</attribute>
+		<attribute name='StreetLamp_14_rotateX' type='maya.doubleAngle'>
+			<label>Street Lamp _14 _rotate X</label>
+		</attribute>
+		<attribute name='StreetLamp_14_rotateY' type='maya.doubleAngle'>
+			<label>Street Lamp _14 _rotate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_14_rotateZ' type='maya.doubleAngle'>
+			<label>Street Lamp _14 _rotate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_14_rotate' type='maya.double3'>
+			<label>Street Lamp _14 _rotate</label>
+		</attribute>
+		<attribute name='StreetLamp_15_translateX' type='maya.doubleLinear'>
+			<label>Street Lamp _15 _translate X</label>
+		</attribute>
+		<attribute name='StreetLamp_15_translateY' type='maya.doubleLinear'>
+			<label>Street Lamp _15 _translate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_15_translateZ' type='maya.doubleLinear'>
+			<label>Street Lamp _15 _translate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_15_translate' type='maya.double3'>
+			<label>Street Lamp _15 _translate</label>
+		</attribute>
+		<attribute name='StreetLamp_15_rotateX' type='maya.doubleAngle'>
+			<label>Street Lamp _15 _rotate X</label>
+		</attribute>
+		<attribute name='StreetLamp_15_rotateY' type='maya.doubleAngle'>
+			<label>Street Lamp _15 _rotate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_15_rotateZ' type='maya.doubleAngle'>
+			<label>Street Lamp _15 _rotate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_15_rotate' type='maya.double3'>
+			<label>Street Lamp _15 _rotate</label>
+		</attribute>
+		<attribute name='StreetLamp_16_translateX' type='maya.doubleLinear'>
+			<label>Street Lamp _16 _translate X</label>
+		</attribute>
+		<attribute name='StreetLamp_16_translateY' type='maya.doubleLinear'>
+			<label>Street Lamp _16 _translate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_16_translateZ' type='maya.doubleLinear'>
+			<label>Street Lamp _16 _translate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_16_translate' type='maya.double3'>
+			<label>Street Lamp _16 _translate</label>
+		</attribute>
+		<attribute name='StreetLamp_16_rotateX' type='maya.doubleAngle'>
+			<label>Street Lamp _16 _rotate X</label>
+		</attribute>
+		<attribute name='StreetLamp_16_rotateY' type='maya.doubleAngle'>
+			<label>Street Lamp _16 _rotate Y</label>
+		</attribute>
+		<attribute name='StreetLamp_16_rotateZ' type='maya.doubleAngle'>
+			<label>Street Lamp _16 _rotate Z</label>
+		</attribute>
+		<attribute name='StreetLamp_16_rotate' type='maya.double3'>
+			<label>Street Lamp _16 _rotate</label>
+		</attribute>
+		<attribute name='StreetLamp_1_colorR' type='maya.float'>
+			<label>Street Lamp _1 _color R</label>
+		</attribute>
+		<attribute name='StreetLamp_1_colorG' type='maya.float'>
+			<label>Street Lamp _1 _color G</label>
+		</attribute>
+		<attribute name='StreetLamp_1_colorB' type='maya.float'>
+			<label>Street Lamp _1 _color B</label>
+		</attribute>
+		<attribute name='StreetLamp_1_color' type='maya.float3'>
+			<label>Street Lamp _1 _color</label>
+		</attribute>
+		<attribute name='StreetLamp_1_intensity' type='maya.float'>
+			<label>Street Lamp _1 _intensity</label>
+		</attribute>
+		<attribute name='StreetLamp_1_useRayTraceShadows' type='maya.bool'>
+			<label>Street Lamp _1 _use Ray Trace Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_1_shadColorR' type='maya.float'>
+			<label>Street Lamp _1 _shad Color R</label>
+		</attribute>
+		<attribute name='StreetLamp_1_shadColorG' type='maya.float'>
+			<label>Street Lamp _1 _shad Color G</label>
+		</attribute>
+		<attribute name='StreetLamp_1_shadColorB' type='maya.float'>
+			<label>Street Lamp _1 _shad Color B</label>
+		</attribute>
+		<attribute name='StreetLamp_1_shadowColor' type='maya.float3'>
+			<label>Street Lamp _1 _shadow Color</label>
+		</attribute>
+		<attribute name='StreetLamp_1_useDepthMapShadows' type='maya.bool'>
+			<label>Street Lamp _1 _use Depth Map Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_1_dmapBias' type='maya.float'>
+			<label>Street Lamp _1 _dmap Bias</label>
+		</attribute>
+		<attribute name='StreetLamp_1_coneAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _1 _cone Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_1_penumbraAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _1 _penumbra Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_1_dropoff' type='maya.double'>
+			<label>Street Lamp _1 _dropoff</label>
+		</attribute>
+		<attribute name='StreetLamp_2_colorR' type='maya.float'>
+			<label>Street Lamp _2 _color R</label>
+		</attribute>
+		<attribute name='StreetLamp_2_colorG' type='maya.float'>
+			<label>Street Lamp _2 _color G</label>
+		</attribute>
+		<attribute name='StreetLamp_2_colorB' type='maya.float'>
+			<label>Street Lamp _2 _color B</label>
+		</attribute>
+		<attribute name='StreetLamp_2_color' type='maya.float3'>
+			<label>Street Lamp _2 _color</label>
+		</attribute>
+		<attribute name='StreetLamp_2_intensity' type='maya.float'>
+			<label>Street Lamp _2 _intensity</label>
+		</attribute>
+		<attribute name='StreetLamp_2_useRayTraceShadows' type='maya.bool'>
+			<label>Street Lamp _2 _use Ray Trace Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_2_shadColorR' type='maya.float'>
+			<label>Street Lamp _2 _shad Color R</label>
+		</attribute>
+		<attribute name='StreetLamp_2_shadColorG' type='maya.float'>
+			<label>Street Lamp _2 _shad Color G</label>
+		</attribute>
+		<attribute name='StreetLamp_2_shadColorB' type='maya.float'>
+			<label>Street Lamp _2 _shad Color B</label>
+		</attribute>
+		<attribute name='StreetLamp_2_shadowColor' type='maya.float3'>
+			<label>Street Lamp _2 _shadow Color</label>
+		</attribute>
+		<attribute name='StreetLamp_2_useDepthMapShadows' type='maya.bool'>
+			<label>Street Lamp _2 _use Depth Map Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_2_dmapBias' type='maya.float'>
+			<label>Street Lamp _2 _dmap Bias</label>
+		</attribute>
+		<attribute name='StreetLamp_2_coneAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _2 _cone Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_2_penumbraAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _2 _penumbra Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_2_dropoff' type='maya.double'>
+			<label>Street Lamp _2 _dropoff</label>
+		</attribute>
+		<attribute name='StreetLamp_3_colorR' type='maya.float'>
+			<label>Street Lamp _3 _color R</label>
+		</attribute>
+		<attribute name='StreetLamp_3_colorG' type='maya.float'>
+			<label>Street Lamp _3 _color G</label>
+		</attribute>
+		<attribute name='StreetLamp_3_colorB' type='maya.float'>
+			<label>Street Lamp _3 _color B</label>
+		</attribute>
+		<attribute name='StreetLamp_3_color' type='maya.float3'>
+			<label>Street Lamp _3 _color</label>
+		</attribute>
+		<attribute name='StreetLamp_3_intensity' type='maya.float'>
+			<label>Street Lamp _3 _intensity</label>
+		</attribute>
+		<attribute name='StreetLamp_3_useRayTraceShadows' type='maya.bool'>
+			<label>Street Lamp _3 _use Ray Trace Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_3_shadColorR' type='maya.float'>
+			<label>Street Lamp _3 _shad Color R</label>
+		</attribute>
+		<attribute name='StreetLamp_3_shadColorG' type='maya.float'>
+			<label>Street Lamp _3 _shad Color G</label>
+		</attribute>
+		<attribute name='StreetLamp_3_shadColorB' type='maya.float'>
+			<label>Street Lamp _3 _shad Color B</label>
+		</attribute>
+		<attribute name='StreetLamp_3_shadowColor' type='maya.float3'>
+			<label>Street Lamp _3 _shadow Color</label>
+		</attribute>
+		<attribute name='StreetLamp_3_useDepthMapShadows' type='maya.bool'>
+			<label>Street Lamp _3 _use Depth Map Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_3_dmapBias' type='maya.float'>
+			<label>Street Lamp _3 _dmap Bias</label>
+		</attribute>
+		<attribute name='StreetLamp_3_coneAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _3 _cone Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_3_penumbraAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _3 _penumbra Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_3_dropoff' type='maya.double'>
+			<label>Street Lamp _3 _dropoff</label>
+		</attribute>
+		<attribute name='StreetLamp_4_colorR' type='maya.float'>
+			<label>Street Lamp _4 _color R</label>
+		</attribute>
+		<attribute name='StreetLamp_4_colorG' type='maya.float'>
+			<label>Street Lamp _4 _color G</label>
+		</attribute>
+		<attribute name='StreetLamp_4_colorB' type='maya.float'>
+			<label>Street Lamp _4 _color B</label>
+		</attribute>
+		<attribute name='StreetLamp_4_color' type='maya.float3'>
+			<label>Street Lamp _4 _color</label>
+		</attribute>
+		<attribute name='StreetLamp_4_intensity' type='maya.float'>
+			<label>Street Lamp _4 _intensity</label>
+		</attribute>
+		<attribute name='StreetLamp_4_useRayTraceShadows' type='maya.bool'>
+			<label>Street Lamp _4 _use Ray Trace Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_4_shadColorR' type='maya.float'>
+			<label>Street Lamp _4 _shad Color R</label>
+		</attribute>
+		<attribute name='StreetLamp_4_shadColorG' type='maya.float'>
+			<label>Street Lamp _4 _shad Color G</label>
+		</attribute>
+		<attribute name='StreetLamp_4_shadColorB' type='maya.float'>
+			<label>Street Lamp _4 _shad Color B</label>
+		</attribute>
+		<attribute name='StreetLamp_4_shadowColor' type='maya.float3'>
+			<label>Street Lamp _4 _shadow Color</label>
+		</attribute>
+		<attribute name='StreetLamp_4_useDepthMapShadows' type='maya.bool'>
+			<label>Street Lamp _4 _use Depth Map Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_4_dmapBias' type='maya.float'>
+			<label>Street Lamp _4 _dmap Bias</label>
+		</attribute>
+		<attribute name='StreetLamp_4_coneAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _4 _cone Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_4_penumbraAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _4 _penumbra Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_4_dropoff' type='maya.double'>
+			<label>Street Lamp _4 _dropoff</label>
+		</attribute>
+		<attribute name='StreetLamp_5_colorR' type='maya.float'>
+			<label>Street Lamp _5 _color R</label>
+		</attribute>
+		<attribute name='StreetLamp_5_colorG' type='maya.float'>
+			<label>Street Lamp _5 _color G</label>
+		</attribute>
+		<attribute name='StreetLamp_5_colorB' type='maya.float'>
+			<label>Street Lamp _5 _color B</label>
+		</attribute>
+		<attribute name='StreetLamp_5_color' type='maya.float3'>
+			<label>Street Lamp _5 _color</label>
+		</attribute>
+		<attribute name='StreetLamp_5_intensity' type='maya.float'>
+			<label>Street Lamp _5 _intensity</label>
+		</attribute>
+		<attribute name='StreetLamp_5_useRayTraceShadows' type='maya.bool'>
+			<label>Street Lamp _5 _use Ray Trace Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_5_shadColorR' type='maya.float'>
+			<label>Street Lamp _5 _shad Color R</label>
+		</attribute>
+		<attribute name='StreetLamp_5_shadColorG' type='maya.float'>
+			<label>Street Lamp _5 _shad Color G</label>
+		</attribute>
+		<attribute name='StreetLamp_5_shadColorB' type='maya.float'>
+			<label>Street Lamp _5 _shad Color B</label>
+		</attribute>
+		<attribute name='StreetLamp_5_shadowColor' type='maya.float3'>
+			<label>Street Lamp _5 _shadow Color</label>
+		</attribute>
+		<attribute name='StreetLamp_5_useDepthMapShadows' type='maya.bool'>
+			<label>Street Lamp _5 _use Depth Map Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_5_dmapBias' type='maya.float'>
+			<label>Street Lamp _5 _dmap Bias</label>
+		</attribute>
+		<attribute name='StreetLamp_5_coneAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _5 _cone Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_5_penumbraAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _5 _penumbra Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_5_dropoff' type='maya.double'>
+			<label>Street Lamp _5 _dropoff</label>
+		</attribute>
+		<attribute name='StreetLamp_6_colorR' type='maya.float'>
+			<label>Street Lamp _6 _color R</label>
+		</attribute>
+		<attribute name='StreetLamp_6_colorG' type='maya.float'>
+			<label>Street Lamp _6 _color G</label>
+		</attribute>
+		<attribute name='StreetLamp_6_colorB' type='maya.float'>
+			<label>Street Lamp _6 _color B</label>
+		</attribute>
+		<attribute name='StreetLamp_6_color' type='maya.float3'>
+			<label>Street Lamp _6 _color</label>
+		</attribute>
+		<attribute name='StreetLamp_6_intensity' type='maya.float'>
+			<label>Street Lamp _6 _intensity</label>
+		</attribute>
+		<attribute name='StreetLamp_6_useRayTraceShadows' type='maya.bool'>
+			<label>Street Lamp _6 _use Ray Trace Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_6_shadColorR' type='maya.float'>
+			<label>Street Lamp _6 _shad Color R</label>
+		</attribute>
+		<attribute name='StreetLamp_6_shadColorG' type='maya.float'>
+			<label>Street Lamp _6 _shad Color G</label>
+		</attribute>
+		<attribute name='StreetLamp_6_shadColorB' type='maya.float'>
+			<label>Street Lamp _6 _shad Color B</label>
+		</attribute>
+		<attribute name='StreetLamp_6_shadowColor' type='maya.float3'>
+			<label>Street Lamp _6 _shadow Color</label>
+		</attribute>
+		<attribute name='StreetLamp_6_useDepthMapShadows' type='maya.bool'>
+			<label>Street Lamp _6 _use Depth Map Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_6_dmapBias' type='maya.float'>
+			<label>Street Lamp _6 _dmap Bias</label>
+		</attribute>
+		<attribute name='StreetLamp_6_coneAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _6 _cone Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_6_penumbraAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _6 _penumbra Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_6_dropoff' type='maya.double'>
+			<label>Street Lamp _6 _dropoff</label>
+		</attribute>
+		<attribute name='StreetLamp_7_colorR' type='maya.float'>
+			<label>Street Lamp _7 _color R</label>
+		</attribute>
+		<attribute name='StreetLamp_7_colorG' type='maya.float'>
+			<label>Street Lamp _7 _color G</label>
+		</attribute>
+		<attribute name='StreetLamp_7_colorB' type='maya.float'>
+			<label>Street Lamp _7 _color B</label>
+		</attribute>
+		<attribute name='StreetLamp_7_color' type='maya.float3'>
+			<label>Street Lamp _7 _color</label>
+		</attribute>
+		<attribute name='StreetLamp_7_intensity' type='maya.float'>
+			<label>Street Lamp _7 _intensity</label>
+		</attribute>
+		<attribute name='StreetLamp_7_useRayTraceShadows' type='maya.bool'>
+			<label>Street Lamp _7 _use Ray Trace Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_7_shadColorR' type='maya.float'>
+			<label>Street Lamp _7 _shad Color R</label>
+		</attribute>
+		<attribute name='StreetLamp_7_shadColorG' type='maya.float'>
+			<label>Street Lamp _7 _shad Color G</label>
+		</attribute>
+		<attribute name='StreetLamp_7_shadColorB' type='maya.float'>
+			<label>Street Lamp _7 _shad Color B</label>
+		</attribute>
+		<attribute name='StreetLamp_7_shadowColor' type='maya.float3'>
+			<label>Street Lamp _7 _shadow Color</label>
+		</attribute>
+		<attribute name='StreetLamp_7_useDepthMapShadows' type='maya.bool'>
+			<label>Street Lamp _7 _use Depth Map Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_7_dmapBias' type='maya.float'>
+			<label>Street Lamp _7 _dmap Bias</label>
+		</attribute>
+		<attribute name='StreetLamp_7_coneAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _7 _cone Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_7_penumbraAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _7 _penumbra Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_7_dropoff' type='maya.double'>
+			<label>Street Lamp _7 _dropoff</label>
+		</attribute>
+		<attribute name='StreetLamp_8_colorR' type='maya.float'>
+			<label>Street Lamp _8 _color R</label>
+		</attribute>
+		<attribute name='StreetLamp_8_colorG' type='maya.float'>
+			<label>Street Lamp _8 _color G</label>
+		</attribute>
+		<attribute name='StreetLamp_8_colorB' type='maya.float'>
+			<label>Street Lamp _8 _color B</label>
+		</attribute>
+		<attribute name='StreetLamp_8_color' type='maya.float3'>
+			<label>Street Lamp _8 _color</label>
+		</attribute>
+		<attribute name='StreetLamp_8_intensity' type='maya.float'>
+			<label>Street Lamp _8 _intensity</label>
+		</attribute>
+		<attribute name='StreetLamp_8_useRayTraceShadows' type='maya.bool'>
+			<label>Street Lamp _8 _use Ray Trace Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_8_shadColorR' type='maya.float'>
+			<label>Street Lamp _8 _shad Color R</label>
+		</attribute>
+		<attribute name='StreetLamp_8_shadColorG' type='maya.float'>
+			<label>Street Lamp _8 _shad Color G</label>
+		</attribute>
+		<attribute name='StreetLamp_8_shadColorB' type='maya.float'>
+			<label>Street Lamp _8 _shad Color B</label>
+		</attribute>
+		<attribute name='StreetLamp_8_shadowColor' type='maya.float3'>
+			<label>Street Lamp _8 _shadow Color</label>
+		</attribute>
+		<attribute name='StreetLamp_8_useDepthMapShadows' type='maya.bool'>
+			<label>Street Lamp _8 _use Depth Map Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_8_dmapBias' type='maya.float'>
+			<label>Street Lamp _8 _dmap Bias</label>
+		</attribute>
+		<attribute name='StreetLamp_8_coneAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _8 _cone Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_8_penumbraAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _8 _penumbra Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_8_dropoff' type='maya.double'>
+			<label>Street Lamp _8 _dropoff</label>
+		</attribute>
+		<attribute name='StreetLamp_9_colorR' type='maya.float'>
+			<label>Street Lamp _9 _color R</label>
+		</attribute>
+		<attribute name='StreetLamp_9_colorG' type='maya.float'>
+			<label>Street Lamp _9 _color G</label>
+		</attribute>
+		<attribute name='StreetLamp_9_colorB' type='maya.float'>
+			<label>Street Lamp _9 _color B</label>
+		</attribute>
+		<attribute name='StreetLamp_9_color' type='maya.float3'>
+			<label>Street Lamp _9 _color</label>
+		</attribute>
+		<attribute name='StreetLamp_9_intensity' type='maya.float'>
+			<label>Street Lamp _9 _intensity</label>
+		</attribute>
+		<attribute name='StreetLamp_9_useRayTraceShadows' type='maya.bool'>
+			<label>Street Lamp _9 _use Ray Trace Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_9_shadColorR' type='maya.float'>
+			<label>Street Lamp _9 _shad Color R</label>
+		</attribute>
+		<attribute name='StreetLamp_9_shadColorG' type='maya.float'>
+			<label>Street Lamp _9 _shad Color G</label>
+		</attribute>
+		<attribute name='StreetLamp_9_shadColorB' type='maya.float'>
+			<label>Street Lamp _9 _shad Color B</label>
+		</attribute>
+		<attribute name='StreetLamp_9_shadowColor' type='maya.float3'>
+			<label>Street Lamp _9 _shadow Color</label>
+		</attribute>
+		<attribute name='StreetLamp_9_useDepthMapShadows' type='maya.bool'>
+			<label>Street Lamp _9 _use Depth Map Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_9_dmapBias' type='maya.float'>
+			<label>Street Lamp _9 _dmap Bias</label>
+		</attribute>
+		<attribute name='StreetLamp_9_coneAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _9 _cone Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_9_penumbraAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _9 _penumbra Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_9_dropoff' type='maya.double'>
+			<label>Street Lamp _9 _dropoff</label>
+		</attribute>
+		<attribute name='StreetLamp_10_colorR' type='maya.float'>
+			<label>Street Lamp _10 _color R</label>
+		</attribute>
+		<attribute name='StreetLamp_10_colorG' type='maya.float'>
+			<label>Street Lamp _10 _color G</label>
+		</attribute>
+		<attribute name='StreetLamp_10_colorB' type='maya.float'>
+			<label>Street Lamp _10 _color B</label>
+		</attribute>
+		<attribute name='StreetLamp_10_color' type='maya.float3'>
+			<label>Street Lamp _10 _color</label>
+		</attribute>
+		<attribute name='StreetLamp_10_intensity' type='maya.float'>
+			<label>Street Lamp _10 _intensity</label>
+		</attribute>
+		<attribute name='StreetLamp_10_useRayTraceShadows' type='maya.bool'>
+			<label>Street Lamp _10 _use Ray Trace Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_10_shadColorR' type='maya.float'>
+			<label>Street Lamp _10 _shad Color R</label>
+		</attribute>
+		<attribute name='StreetLamp_10_shadColorG' type='maya.float'>
+			<label>Street Lamp _10 _shad Color G</label>
+		</attribute>
+		<attribute name='StreetLamp_10_shadColorB' type='maya.float'>
+			<label>Street Lamp _10 _shad Color B</label>
+		</attribute>
+		<attribute name='StreetLamp_10_shadowColor' type='maya.float3'>
+			<label>Street Lamp _10 _shadow Color</label>
+		</attribute>
+		<attribute name='StreetLamp_10_useDepthMapShadows' type='maya.bool'>
+			<label>Street Lamp _10 _use Depth Map Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_10_dmapBias' type='maya.float'>
+			<label>Street Lamp _10 _dmap Bias</label>
+		</attribute>
+		<attribute name='StreetLamp_10_coneAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _10 _cone Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_10_penumbraAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _10 _penumbra Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_10_dropoff' type='maya.double'>
+			<label>Street Lamp _10 _dropoff</label>
+		</attribute>
+		<attribute name='StreetLamp_11_colorR' type='maya.float'>
+			<label>Street Lamp _11 _color R</label>
+		</attribute>
+		<attribute name='StreetLamp_11_colorG' type='maya.float'>
+			<label>Street Lamp _11 _color G</label>
+		</attribute>
+		<attribute name='StreetLamp_11_colorB' type='maya.float'>
+			<label>Street Lamp _11 _color B</label>
+		</attribute>
+		<attribute name='StreetLamp_11_color' type='maya.float3'>
+			<label>Street Lamp _11 _color</label>
+		</attribute>
+		<attribute name='StreetLamp_11_intensity' type='maya.float'>
+			<label>Street Lamp _11 _intensity</label>
+		</attribute>
+		<attribute name='StreetLamp_11_useRayTraceShadows' type='maya.bool'>
+			<label>Street Lamp _11 _use Ray Trace Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_11_shadColorR' type='maya.float'>
+			<label>Street Lamp _11 _shad Color R</label>
+		</attribute>
+		<attribute name='StreetLamp_11_shadColorG' type='maya.float'>
+			<label>Street Lamp _11 _shad Color G</label>
+		</attribute>
+		<attribute name='StreetLamp_11_shadColorB' type='maya.float'>
+			<label>Street Lamp _11 _shad Color B</label>
+		</attribute>
+		<attribute name='StreetLamp_11_shadowColor' type='maya.float3'>
+			<label>Street Lamp _11 _shadow Color</label>
+		</attribute>
+		<attribute name='StreetLamp_11_useDepthMapShadows' type='maya.bool'>
+			<label>Street Lamp _11 _use Depth Map Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_11_dmapBias' type='maya.float'>
+			<label>Street Lamp _11 _dmap Bias</label>
+		</attribute>
+		<attribute name='StreetLamp_11_coneAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _11 _cone Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_11_penumbraAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _11 _penumbra Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_11_dropoff' type='maya.double'>
+			<label>Street Lamp _11 _dropoff</label>
+		</attribute>
+		<attribute name='StreetLamp_12_colorR' type='maya.float'>
+			<label>Street Lamp _12 _color R</label>
+		</attribute>
+		<attribute name='StreetLamp_12_colorG' type='maya.float'>
+			<label>Street Lamp _12 _color G</label>
+		</attribute>
+		<attribute name='StreetLamp_12_colorB' type='maya.float'>
+			<label>Street Lamp _12 _color B</label>
+		</attribute>
+		<attribute name='StreetLamp_12_color' type='maya.float3'>
+			<label>Street Lamp _12 _color</label>
+		</attribute>
+		<attribute name='StreetLamp_12_intensity' type='maya.float'>
+			<label>Street Lamp _12 _intensity</label>
+		</attribute>
+		<attribute name='StreetLamp_12_useRayTraceShadows' type='maya.bool'>
+			<label>Street Lamp _12 _use Ray Trace Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_12_shadColorR' type='maya.float'>
+			<label>Street Lamp _12 _shad Color R</label>
+		</attribute>
+		<attribute name='StreetLamp_12_shadColorG' type='maya.float'>
+			<label>Street Lamp _12 _shad Color G</label>
+		</attribute>
+		<attribute name='StreetLamp_12_shadColorB' type='maya.float'>
+			<label>Street Lamp _12 _shad Color B</label>
+		</attribute>
+		<attribute name='StreetLamp_12_shadowColor' type='maya.float3'>
+			<label>Street Lamp _12 _shadow Color</label>
+		</attribute>
+		<attribute name='StreetLamp_12_useDepthMapShadows' type='maya.bool'>
+			<label>Street Lamp _12 _use Depth Map Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_12_dmapBias' type='maya.float'>
+			<label>Street Lamp _12 _dmap Bias</label>
+		</attribute>
+		<attribute name='StreetLamp_12_coneAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _12 _cone Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_12_penumbraAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _12 _penumbra Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_12_dropoff' type='maya.double'>
+			<label>Street Lamp _12 _dropoff</label>
+		</attribute>
+		<attribute name='StreetLamp_13_colorR' type='maya.float'>
+			<label>Street Lamp _13 _color R</label>
+		</attribute>
+		<attribute name='StreetLamp_13_colorG' type='maya.float'>
+			<label>Street Lamp _13 _color G</label>
+		</attribute>
+		<attribute name='StreetLamp_13_colorB' type='maya.float'>
+			<label>Street Lamp _13 _color B</label>
+		</attribute>
+		<attribute name='StreetLamp_13_color' type='maya.float3'>
+			<label>Street Lamp _13 _color</label>
+		</attribute>
+		<attribute name='StreetLamp_13_intensity' type='maya.float'>
+			<label>Street Lamp _13 _intensity</label>
+		</attribute>
+		<attribute name='StreetLamp_13_useRayTraceShadows' type='maya.bool'>
+			<label>Street Lamp _13 _use Ray Trace Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_13_shadColorR' type='maya.float'>
+			<label>Street Lamp _13 _shad Color R</label>
+		</attribute>
+		<attribute name='StreetLamp_13_shadColorG' type='maya.float'>
+			<label>Street Lamp _13 _shad Color G</label>
+		</attribute>
+		<attribute name='StreetLamp_13_shadColorB' type='maya.float'>
+			<label>Street Lamp _13 _shad Color B</label>
+		</attribute>
+		<attribute name='StreetLamp_13_shadowColor' type='maya.float3'>
+			<label>Street Lamp _13 _shadow Color</label>
+		</attribute>
+		<attribute name='StreetLamp_13_useDepthMapShadows' type='maya.bool'>
+			<label>Street Lamp _13 _use Depth Map Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_13_dmapBias' type='maya.float'>
+			<label>Street Lamp _13 _dmap Bias</label>
+		</attribute>
+		<attribute name='StreetLamp_13_coneAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _13 _cone Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_13_penumbraAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _13 _penumbra Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_13_dropoff' type='maya.double'>
+			<label>Street Lamp _13 _dropoff</label>
+		</attribute>
+		<attribute name='StreetLamp_14_colorR' type='maya.float'>
+			<label>Street Lamp _14 _color R</label>
+		</attribute>
+		<attribute name='StreetLamp_14_colorG' type='maya.float'>
+			<label>Street Lamp _14 _color G</label>
+		</attribute>
+		<attribute name='StreetLamp_14_colorB' type='maya.float'>
+			<label>Street Lamp _14 _color B</label>
+		</attribute>
+		<attribute name='StreetLamp_14_color' type='maya.float3'>
+			<label>Street Lamp _14 _color</label>
+		</attribute>
+		<attribute name='StreetLamp_14_intensity' type='maya.float'>
+			<label>Street Lamp _14 _intensity</label>
+		</attribute>
+		<attribute name='StreetLamp_14_useRayTraceShadows' type='maya.bool'>
+			<label>Street Lamp _14 _use Ray Trace Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_14_shadColorR' type='maya.float'>
+			<label>Street Lamp _14 _shad Color R</label>
+		</attribute>
+		<attribute name='StreetLamp_14_shadColorG' type='maya.float'>
+			<label>Street Lamp _14 _shad Color G</label>
+		</attribute>
+		<attribute name='StreetLamp_14_shadColorB' type='maya.float'>
+			<label>Street Lamp _14 _shad Color B</label>
+		</attribute>
+		<attribute name='StreetLamp_14_shadowColor' type='maya.float3'>
+			<label>Street Lamp _14 _shadow Color</label>
+		</attribute>
+		<attribute name='StreetLamp_14_useDepthMapShadows' type='maya.bool'>
+			<label>Street Lamp _14 _use Depth Map Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_14_dmapBias' type='maya.float'>
+			<label>Street Lamp _14 _dmap Bias</label>
+		</attribute>
+		<attribute name='StreetLamp_14_coneAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _14 _cone Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_14_penumbraAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _14 _penumbra Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_14_dropoff' type='maya.double'>
+			<label>Street Lamp _14 _dropoff</label>
+		</attribute>
+		<attribute name='StreetLamp_15_colorR' type='maya.float'>
+			<label>Street Lamp _15 _color R</label>
+		</attribute>
+		<attribute name='StreetLamp_15_colorG' type='maya.float'>
+			<label>Street Lamp _15 _color G</label>
+		</attribute>
+		<attribute name='StreetLamp_15_colorB' type='maya.float'>
+			<label>Street Lamp _15 _color B</label>
+		</attribute>
+		<attribute name='StreetLamp_15_color' type='maya.float3'>
+			<label>Street Lamp _15 _color</label>
+		</attribute>
+		<attribute name='StreetLamp_15_intensity' type='maya.float'>
+			<label>Street Lamp _15 _intensity</label>
+		</attribute>
+		<attribute name='StreetLamp_15_useRayTraceShadows' type='maya.bool'>
+			<label>Street Lamp _15 _use Ray Trace Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_15_shadColorR' type='maya.float'>
+			<label>Street Lamp _15 _shad Color R</label>
+		</attribute>
+		<attribute name='StreetLamp_15_shadColorG' type='maya.float'>
+			<label>Street Lamp _15 _shad Color G</label>
+		</attribute>
+		<attribute name='StreetLamp_15_shadColorB' type='maya.float'>
+			<label>Street Lamp _15 _shad Color B</label>
+		</attribute>
+		<attribute name='StreetLamp_15_shadowColor' type='maya.float3'>
+			<label>Street Lamp _15 _shadow Color</label>
+		</attribute>
+		<attribute name='StreetLamp_15_useDepthMapShadows' type='maya.bool'>
+			<label>Street Lamp _15 _use Depth Map Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_15_dmapBias' type='maya.float'>
+			<label>Street Lamp _15 _dmap Bias</label>
+		</attribute>
+		<attribute name='StreetLamp_15_coneAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _15 _cone Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_15_penumbraAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _15 _penumbra Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_15_dropoff' type='maya.double'>
+			<label>Street Lamp _15 _dropoff</label>
+		</attribute>
+		<attribute name='StreetLamp_16_colorR' type='maya.float'>
+			<label>Street Lamp _16 _color R</label>
+		</attribute>
+		<attribute name='StreetLamp_16_colorG' type='maya.float'>
+			<label>Street Lamp _16 _color G</label>
+		</attribute>
+		<attribute name='StreetLamp_16_colorB' type='maya.float'>
+			<label>Street Lamp _16 _color B</label>
+		</attribute>
+		<attribute name='StreetLamp_16_color' type='maya.float3'>
+			<label>Street Lamp _16 _color</label>
+		</attribute>
+		<attribute name='StreetLamp_16_intensity' type='maya.float'>
+			<label>Street Lamp _16 _intensity</label>
+		</attribute>
+		<attribute name='StreetLamp_16_useRayTraceShadows' type='maya.bool'>
+			<label>Street Lamp _16 _use Ray Trace Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_16_shadColorR' type='maya.float'>
+			<label>Street Lamp _16 _shad Color R</label>
+		</attribute>
+		<attribute name='StreetLamp_16_shadColorG' type='maya.float'>
+			<label>Street Lamp _16 _shad Color G</label>
+		</attribute>
+		<attribute name='StreetLamp_16_shadColorB' type='maya.float'>
+			<label>Street Lamp _16 _shad Color B</label>
+		</attribute>
+		<attribute name='StreetLamp_16_shadowColor' type='maya.float3'>
+			<label>Street Lamp _16 _shadow Color</label>
+		</attribute>
+		<attribute name='StreetLamp_16_useDepthMapShadows' type='maya.bool'>
+			<label>Street Lamp _16 _use Depth Map Shadows</label>
+		</attribute>
+		<attribute name='StreetLamp_16_dmapBias' type='maya.float'>
+			<label>Street Lamp _16 _dmap Bias</label>
+		</attribute>
+		<attribute name='StreetLamp_16_coneAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _16 _cone Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_16_penumbraAngle' type='maya.doubleAngle'>
+			<label>Street Lamp _16 _penumbra Angle</label>
+		</attribute>
+		<attribute name='StreetLamp_16_dropoff' type='maya.double'>
+			<label>Street Lamp _16 _dropoff</label>
+		</attribute>
+	</template>
+	<view name='StreetLamp_1' template='streetLights'>
+		<group name='StreetLamp_Shape1'>
+			<property name='StreetLamp_1_color'/>
+			<property name='StreetLamp_1_intensity'/>
+			<property name='StreetLamp_1_useRayTraceShadows'/>
+			<property name='StreetLamp_1_shadowColor'/>
+			<property name='StreetLamp_1_useDepthMapShadows'/>
+			<property name='StreetLamp_1_dmapBias'/>
+			<property name='StreetLamp_1_coneAngle'/>
+			<property name='StreetLamp_1_penumbraAngle'/>
+			<property name='StreetLamp_1_dropoff'/>
+		</group>
+	</view>
+	<view name='StreetLamp_2' template='streetLights'>
+		<group name='StreetLamp_Shape2'>
+			<property name='StreetLamp_2_color'/>
+			<property name='StreetLamp_2_intensity'/>
+			<property name='StreetLamp_2_useRayTraceShadows'/>
+			<property name='StreetLamp_2_shadowColor'/>
+			<property name='StreetLamp_2_useDepthMapShadows'/>
+			<property name='StreetLamp_2_dmapBias'/>
+			<property name='StreetLamp_2_coneAngle'/>
+			<property name='StreetLamp_2_penumbraAngle'/>
+			<property name='StreetLamp_2_dropoff'/>
+		</group>
+	</view>
+	<view name='StreetLamp_3' template='streetLights'>
+		<group name='StreetLamp_Shape3'>
+			<property name='StreetLamp_3_color'/>
+			<property name='StreetLamp_3_intensity'/>
+			<property name='StreetLamp_3_useRayTraceShadows'/>
+			<property name='StreetLamp_3_shadowColor'/>
+			<property name='StreetLamp_3_useDepthMapShadows'/>
+			<property name='StreetLamp_3_dmapBias'/>
+			<property name='StreetLamp_3_coneAngle'/>
+			<property name='StreetLamp_3_penumbraAngle'/>
+			<property name='StreetLamp_3_dropoff'/>
+		</group>
+	</view>
+	<view name='StreetLamp_4' template='streetLights'>
+		<group name='StreetLamp_Shape4'>
+			<property name='StreetLamp_4_color'/>
+			<property name='StreetLamp_4_intensity'/>
+			<property name='StreetLamp_4_useRayTraceShadows'/>
+			<property name='StreetLamp_4_shadowColor'/>
+			<property name='StreetLamp_4_useDepthMapShadows'/>
+			<property name='StreetLamp_4_dmapBias'/>
+			<property name='StreetLamp_4_coneAngle'/>
+			<property name='StreetLamp_4_penumbraAngle'/>
+			<property name='StreetLamp_4_dropoff'/>
+		</group>
+	</view>
+	<view name='StreetLamp_5' template='streetLights'>
+		<group name='StreetLamp_Shape5'>
+			<property name='StreetLamp_5_color'/>
+			<property name='StreetLamp_5_intensity'/>
+			<property name='StreetLamp_5_useRayTraceShadows'/>
+			<property name='StreetLamp_5_shadowColor'/>
+			<property name='StreetLamp_5_useDepthMapShadows'/>
+			<property name='StreetLamp_5_dmapBias'/>
+			<property name='StreetLamp_5_coneAngle'/>
+			<property name='StreetLamp_5_penumbraAngle'/>
+			<property name='StreetLamp_5_dropoff'/>
+		</group>
+	</view>
+	<view name='StreetLamp_6' template='streetLights'>
+		<group name='StreetLamp_Shape6'>
+			<property name='StreetLamp_6_color'/>
+			<property name='StreetLamp_6_intensity'/>
+			<property name='StreetLamp_6_useRayTraceShadows'/>
+			<property name='StreetLamp_6_shadowColor'/>
+			<property name='StreetLamp_6_useDepthMapShadows'/>
+			<property name='StreetLamp_6_dmapBias'/>
+			<property name='StreetLamp_6_coneAngle'/>
+			<property name='StreetLamp_6_penumbraAngle'/>
+			<property name='StreetLamp_6_dropoff'/>
+		</group>
+	</view>
+	<view name='StreetLamp_7' template='streetLights'>
+		<group name='StreetLamp_Shape7'>
+			<property name='StreetLamp_7_color'/>
+			<property name='StreetLamp_7_intensity'/>
+			<property name='StreetLamp_7_useRayTraceShadows'/>
+			<property name='StreetLamp_7_shadowColor'/>
+			<property name='StreetLamp_7_useDepthMapShadows'/>
+			<property name='StreetLamp_7_dmapBias'/>
+			<property name='StreetLamp_7_coneAngle'/>
+			<property name='StreetLamp_7_penumbraAngle'/>
+			<property name='StreetLamp_7_dropoff'/>
+		</group>
+	</view>
+	<view name='StreetLamp_8' template='streetLights'>
+		<group name='StreetLamp_Shape8'>
+			<property name='StreetLamp_8_color'/>
+			<property name='StreetLamp_8_intensity'/>
+			<property name='StreetLamp_8_useRayTraceShadows'/>
+			<property name='StreetLamp_8_shadowColor'/>
+			<property name='StreetLamp_8_useDepthMapShadows'/>
+			<property name='StreetLamp_8_dmapBias'/>
+			<property name='StreetLamp_8_coneAngle'/>
+			<property name='StreetLamp_8_penumbraAngle'/>
+			<property name='StreetLamp_8_dropoff'/>
+		</group>
+	</view>
+	<view name='StreetLamp_9' template='streetLights'>
+		<group name='StreetLamp_Shape9'>
+			<property name='StreetLamp_9_color'/>
+			<property name='StreetLamp_9_intensity'/>
+			<property name='StreetLamp_9_useRayTraceShadows'/>
+			<property name='StreetLamp_9_shadowColor'/>
+			<property name='StreetLamp_9_useDepthMapShadows'/>
+			<property name='StreetLamp_9_dmapBias'/>
+			<property name='StreetLamp_9_coneAngle'/>
+			<property name='StreetLamp_9_penumbraAngle'/>
+			<property name='StreetLamp_9_dropoff'/>
+		</group>
+	</view>
+	<view name='StreetLamp_10' template='streetLights'>
+		<group name='StreetLamp_Shape10'>
+			<property name='StreetLamp_10_color'/>
+			<property name='StreetLamp_10_intensity'/>
+			<property name='StreetLamp_10_useRayTraceShadows'/>
+			<property name='StreetLamp_10_shadowColor'/>
+			<property name='StreetLamp_10_useDepthMapShadows'/>
+			<property name='StreetLamp_10_dmapBias'/>
+			<property name='StreetLamp_10_coneAngle'/>
+			<property name='StreetLamp_10_penumbraAngle'/>
+			<property name='StreetLamp_10_dropoff'/>
+		</group>
+	</view>
+	<view name='StreetLamp_11' template='streetLights'>
+		<group name='StreetLamp_Shape11'>
+			<property name='StreetLamp_11_color'/>
+			<property name='StreetLamp_11_intensity'/>
+			<property name='StreetLamp_11_useRayTraceShadows'/>
+			<property name='StreetLamp_11_shadowColor'/>
+			<property name='StreetLamp_11_useDepthMapShadows'/>
+			<property name='StreetLamp_11_dmapBias'/>
+			<property name='StreetLamp_11_coneAngle'/>
+			<property name='StreetLamp_11_penumbraAngle'/>
+			<property name='StreetLamp_11_dropoff'/>
+		</group>
+	</view>
+	<view name='StreetLamp_12' template='streetLights'>
+		<group name='StreetLamp_Shape12'>
+			<property name='StreetLamp_12_color'/>
+			<property name='StreetLamp_12_intensity'/>
+			<property name='StreetLamp_12_useRayTraceShadows'/>
+			<property name='StreetLamp_12_shadowColor'/>
+			<property name='StreetLamp_12_useDepthMapShadows'/>
+			<property name='StreetLamp_12_dmapBias'/>
+			<property name='StreetLamp_12_coneAngle'/>
+			<property name='StreetLamp_12_penumbraAngle'/>
+			<property name='StreetLamp_12_dropoff'/>
+		</group>
+	</view>
+	<view name='StreetLamp_13' template='streetLights'>
+		<group name='StreetLamp_Shape13'>
+			<property name='StreetLamp_13_color'/>
+			<property name='StreetLamp_13_intensity'/>
+			<property name='StreetLamp_13_useRayTraceShadows'/>
+			<property name='StreetLamp_13_shadowColor'/>
+			<property name='StreetLamp_13_useDepthMapShadows'/>
+			<property name='StreetLamp_13_dmapBias'/>
+			<property name='StreetLamp_13_coneAngle'/>
+			<property name='StreetLamp_13_penumbraAngle'/>
+			<property name='StreetLamp_13_dropoff'/>
+		</group>
+	</view>
+	<view name='StreetLamp_14' template='streetLights'>
+		<group name='StreetLamp_Shape14'>
+			<property name='StreetLamp_14_color'/>
+			<property name='StreetLamp_14_intensity'/>
+			<property name='StreetLamp_14_useRayTraceShadows'/>
+			<property name='StreetLamp_14_shadowColor'/>
+			<property name='StreetLamp_14_useDepthMapShadows'/>
+			<property name='StreetLamp_14_dmapBias'/>
+			<property name='StreetLamp_14_coneAngle'/>
+			<property name='StreetLamp_14_penumbraAngle'/>
+			<property name='StreetLamp_14_dropoff'/>
+		</group>
+	</view>
+	<view name='StreetLamp_15' template='streetLights'>
+		<group name='StreetLamp_Shape15'>
+			<property name='StreetLamp_15_color'/>
+			<property name='StreetLamp_15_intensity'/>
+			<property name='StreetLamp_15_useRayTraceShadows'/>
+			<property name='StreetLamp_15_shadowColor'/>
+			<property name='StreetLamp_15_useDepthMapShadows'/>
+			<property name='StreetLamp_15_dmapBias'/>
+			<property name='StreetLamp_15_coneAngle'/>
+			<property name='StreetLamp_15_penumbraAngle'/>
+			<property name='StreetLamp_15_dropoff'/>
+		</group>
+	</view>
+	<view name='StreetLamp_16' template='streetLights'>
+		<group name='StreetLamp_Shape16'>
+			<property name='StreetLamp_16_color'/>
+			<property name='StreetLamp_16_intensity'/>
+			<property name='StreetLamp_16_useRayTraceShadows'/>
+			<property name='StreetLamp_16_shadowColor'/>
+			<property name='StreetLamp_16_useDepthMapShadows'/>
+			<property name='StreetLamp_16_dmapBias'/>
+			<property name='StreetLamp_16_coneAngle'/>
+			<property name='StreetLamp_16_penumbraAngle'/>
+			<property name='StreetLamp_16_dropoff'/>
+		</group>
+	</view>
+	<view name='GlobalLights' template='streetLights'>
+		<group name='StreetLamp_Shape1'>
+			<property name='StreetLamp_1_color'/>
+			<property name='StreetLamp_1_intensity'/>
+			<property name='StreetLamp_1_useRayTraceShadows'/>
+			<property name='StreetLamp_1_shadowColor'/>
+			<property name='StreetLamp_1_useDepthMapShadows'/>
+			<property name='StreetLamp_1_dmapBias'/>
+			<property name='StreetLamp_1_coneAngle'/>
+			<property name='StreetLamp_1_penumbraAngle'/>
+			<property name='StreetLamp_1_dropoff'/>
+		</group>
+		<group name='StreetLamp_Shape2'>
+			<property name='StreetLamp_2_color'/>
+			<property name='StreetLamp_2_intensity'/>
+			<property name='StreetLamp_2_useRayTraceShadows'/>
+			<property name='StreetLamp_2_shadowColor'/>
+			<property name='StreetLamp_2_useDepthMapShadows'/>
+			<property name='StreetLamp_2_dmapBias'/>
+			<property name='StreetLamp_2_coneAngle'/>
+			<property name='StreetLamp_2_penumbraAngle'/>
+			<property name='StreetLamp_2_dropoff'/>
+		</group>
+		<group name='StreetLamp_Shape3'>
+			<property name='StreetLamp_3_color'/>
+			<property name='StreetLamp_3_intensity'/>
+			<property name='StreetLamp_3_useRayTraceShadows'/>
+			<property name='StreetLamp_3_shadowColor'/>
+			<property name='StreetLamp_3_useDepthMapShadows'/>
+			<property name='StreetLamp_3_dmapBias'/>
+			<property name='StreetLamp_3_coneAngle'/>
+			<property name='StreetLamp_3_penumbraAngle'/>
+			<property name='StreetLamp_3_dropoff'/>
+		</group>
+		<group name='StreetLamp_Shape4'>
+			<property name='StreetLamp_4_color'/>
+			<property name='StreetLamp_4_intensity'/>
+			<property name='StreetLamp_4_useRayTraceShadows'/>
+			<property name='StreetLamp_4_shadowColor'/>
+			<property name='StreetLamp_4_useDepthMapShadows'/>
+			<property name='StreetLamp_4_dmapBias'/>
+			<property name='StreetLamp_4_coneAngle'/>
+			<property name='StreetLamp_4_penumbraAngle'/>
+			<property name='StreetLamp_4_dropoff'/>
+		</group>
+		<group name='StreetLamp_Shape5'>
+			<property name='StreetLamp_5_color'/>
+			<property name='StreetLamp_5_intensity'/>
+			<property name='StreetLamp_5_useRayTraceShadows'/>
+			<property name='StreetLamp_5_shadowColor'/>
+			<property name='StreetLamp_5_useDepthMapShadows'/>
+			<property name='StreetLamp_5_dmapBias'/>
+			<property name='StreetLamp_5_coneAngle'/>
+			<property name='StreetLamp_5_penumbraAngle'/>
+			<property name='StreetLamp_5_dropoff'/>
+		</group>
+		<group name='StreetLamp_Shape6'>
+			<property name='StreetLamp_6_color'/>
+			<property name='StreetLamp_6_intensity'/>
+			<property name='StreetLamp_6_useRayTraceShadows'/>
+			<property name='StreetLamp_6_shadowColor'/>
+			<property name='StreetLamp_6_useDepthMapShadows'/>
+			<property name='StreetLamp_6_dmapBias'/>
+			<property name='StreetLamp_6_coneAngle'/>
+			<property name='StreetLamp_6_penumbraAngle'/>
+			<property name='StreetLamp_6_dropoff'/>
+		</group>
+		<group name='StreetLamp_Shape7'>
+			<property name='StreetLamp_7_color'/>
+			<property name='StreetLamp_7_intensity'/>
+			<property name='StreetLamp_7_useRayTraceShadows'/>
+			<property name='StreetLamp_7_shadowColor'/>
+			<property name='StreetLamp_7_useDepthMapShadows'/>
+			<property name='StreetLamp_7_dmapBias'/>
+			<property name='StreetLamp_7_coneAngle'/>
+			<property name='StreetLamp_7_penumbraAngle'/>
+			<property name='StreetLamp_7_dropoff'/>
+		</group>
+		<group name='StreetLamp_Shape8'>
+			<property name='StreetLamp_8_color'/>
+			<property name='StreetLamp_8_intensity'/>
+			<property name='StreetLamp_8_useRayTraceShadows'/>
+			<property name='StreetLamp_8_shadowColor'/>
+			<property name='StreetLamp_8_useDepthMapShadows'/>
+			<property name='StreetLamp_8_dmapBias'/>
+			<property name='StreetLamp_8_coneAngle'/>
+			<property name='StreetLamp_8_penumbraAngle'/>
+			<property name='StreetLamp_8_dropoff'/>
+		</group>
+		<group name='StreetLamp_Shape9'>
+			<property name='StreetLamp_9_color'/>
+			<property name='StreetLamp_9_intensity'/>
+			<property name='StreetLamp_9_useRayTraceShadows'/>
+			<property name='StreetLamp_9_shadowColor'/>
+			<property name='StreetLamp_9_useDepthMapShadows'/>
+			<property name='StreetLamp_9_dmapBias'/>
+			<property name='StreetLamp_9_coneAngle'/>
+			<property name='StreetLamp_9_penumbraAngle'/>
+			<property name='StreetLamp_9_dropoff'/>
+		</group>
+		<group name='StreetLamp_Shape10'>
+			<property name='StreetLamp_10_color'/>
+			<property name='StreetLamp_10_intensity'/>
+			<property name='StreetLamp_10_useRayTraceShadows'/>
+			<property name='StreetLamp_10_shadowColor'/>
+			<property name='StreetLamp_10_useDepthMapShadows'/>
+			<property name='StreetLamp_10_dmapBias'/>
+			<property name='StreetLamp_10_coneAngle'/>
+			<property name='StreetLamp_10_penumbraAngle'/>
+			<property name='StreetLamp_10_dropoff'/>
+		</group>
+		<group name='StreetLamp_Shape11'>
+			<property name='StreetLamp_11_color'/>
+			<property name='StreetLamp_11_intensity'/>
+			<property name='StreetLamp_11_useRayTraceShadows'/>
+			<property name='StreetLamp_11_shadowColor'/>
+			<property name='StreetLamp_11_useDepthMapShadows'/>
+			<property name='StreetLamp_11_dmapBias'/>
+			<property name='StreetLamp_11_coneAngle'/>
+			<property name='StreetLamp_11_penumbraAngle'/>
+			<property name='StreetLamp_11_dropoff'/>
+		</group>
+		<group name='StreetLamp_Shape12'>
+			<property name='StreetLamp_12_color'/>
+			<property name='StreetLamp_12_intensity'/>
+			<property name='StreetLamp_12_useRayTraceShadows'/>
+			<property name='StreetLamp_12_shadowColor'/>
+			<property name='StreetLamp_12_useDepthMapShadows'/>
+			<property name='StreetLamp_12_dmapBias'/>
+			<property name='StreetLamp_12_coneAngle'/>
+			<property name='StreetLamp_12_penumbraAngle'/>
+			<property name='StreetLamp_12_dropoff'/>
+		</group>
+		<group name='StreetLamp_Shape13'>
+			<property name='StreetLamp_13_color'/>
+			<property name='StreetLamp_13_intensity'/>
+			<property name='StreetLamp_13_useRayTraceShadows'/>
+			<property name='StreetLamp_13_shadowColor'/>
+			<property name='StreetLamp_13_useDepthMapShadows'/>
+			<property name='StreetLamp_13_dmapBias'/>
+			<property name='StreetLamp_13_coneAngle'/>
+			<property name='StreetLamp_13_penumbraAngle'/>
+			<property name='StreetLamp_13_dropoff'/>
+		</group>
+		<group name='StreetLamp_Shape14'>
+			<property name='StreetLamp_14_color'/>
+			<property name='StreetLamp_14_intensity'/>
+			<property name='StreetLamp_14_useRayTraceShadows'/>
+			<property name='StreetLamp_14_shadowColor'/>
+			<property name='StreetLamp_14_useDepthMapShadows'/>
+			<property name='StreetLamp_14_dmapBias'/>
+			<property name='StreetLamp_14_coneAngle'/>
+			<property name='StreetLamp_14_penumbraAngle'/>
+			<property name='StreetLamp_14_dropoff'/>
+		</group>
+		<group name='StreetLamp_Shape15'>
+			<property name='StreetLamp_15_color'/>
+			<property name='StreetLamp_15_intensity'/>
+			<property name='StreetLamp_15_useRayTraceShadows'/>
+			<property name='StreetLamp_15_shadowColor'/>
+			<property name='StreetLamp_15_useDepthMapShadows'/>
+			<property name='StreetLamp_15_dmapBias'/>
+			<property name='StreetLamp_15_coneAngle'/>
+			<property name='StreetLamp_15_penumbraAngle'/>
+			<property name='StreetLamp_15_dropoff'/>
+		</group>
+		<group name='StreetLamp_Shape16'>
+			<property name='StreetLamp_16_color'/>
+			<property name='StreetLamp_16_intensity'/>
+			<property name='StreetLamp_16_useRayTraceShadows'/>
+			<property name='StreetLamp_16_shadowColor'/>
+			<property name='StreetLamp_16_useDepthMapShadows'/>
+			<property name='StreetLamp_16_dmapBias'/>
+			<property name='StreetLamp_16_coneAngle'/>
+			<property name='StreetLamp_16_penumbraAngle'/>
+			<property name='StreetLamp_16_dropoff'/>
+		</group>
+	</view>
+	<view name='GlobalTransform' template='streetLights'>
+		<group name='StreetLamp_1'>
+			<property name='StreetLamp_1_translate'/>
+			<property name='StreetLamp_1_rotate'/>
+		</group>
+		<group name='StreetLamp_2'>
+			<property name='StreetLamp_2_translate'/>
+			<property name='StreetLamp_2_rotate'/>
+		</group>
+		<group name='StreetLamp_3'>
+			<property name='StreetLamp_3_translate'/>
+			<property name='StreetLamp_3_rotate'/>
+		</group>
+		<group name='StreetLamp_4'>
+			<property name='StreetLamp_4_translate'/>
+			<property name='StreetLamp_4_rotate'/>
+		</group>
+		<group name='StreetLamp_5'>
+			<property name='StreetLamp_5_translate'/>
+			<property name='StreetLamp_5_rotate'/>
+		</group>
+		<group name='StreetLamp_6'>
+			<property name='StreetLamp_6_translate'/>
+			<property name='StreetLamp_6_rotate'/>
+		</group>
+		<group name='StreetLamp_7'>
+			<property name='StreetLamp_7_translate'/>
+			<property name='StreetLamp_7_rotate'/>
+		</group>
+		<group name='StreetLamp_8'>
+			<property name='StreetLamp_8_translate'/>
+			<property name='StreetLamp_8_rotate'/>
+		</group>
+		<group name='StreetLamp_9'>
+			<property name='StreetLamp_9_translate'/>
+			<property name='StreetLamp_9_rotate'/>
+		</group>
+		<group name='StreetLamp_10'>
+			<property name='StreetLamp_10_translate'/>
+			<property name='StreetLamp_10_rotate'/>
+		</group>
+		<group name='StreetLamp_11'>
+			<property name='StreetLamp_11_translate'/>
+			<property name='StreetLamp_11_rotate'/>
+		</group>
+		<group name='StreetLamp_12'>
+			<property name='StreetLamp_12_translate'/>
+			<property name='StreetLamp_12_rotate'/>
+		</group>
+		<group name='StreetLamp_13'>
+			<property name='StreetLamp_13_translate'/>
+			<property name='StreetLamp_13_rotate'/>
+		</group>
+		<group name='StreetLamp_14'>
+			<property name='StreetLamp_14_translate'/>
+			<property name='StreetLamp_14_rotate'/>
+		</group>
+		<group name='StreetLamp_15'>
+			<property name='StreetLamp_15_translate'/>
+			<property name='StreetLamp_15_rotate'/>
+		</group>
+		<group name='StreetLamp_16'>
+			<property name='StreetLamp_16_translate'/>
+			<property name='StreetLamp_16_rotate'/>
+		</group>
+	</view>
+	<view name='StreetLight_10_Transform' template='streetLights'>
+		<group name='StreetLamp_10'>
+			<property name='StreetLamp_10_translate'/>
+			<property name='StreetLamp_10_rotate'/>
+		</group>
+	</view>
+	<view name='StreetLight_11_Transform' template='streetLights'>
+		<group name='StreetLamp_11'>
+			<property name='StreetLamp_11_translate'/>
+			<property name='StreetLamp_11_rotate'/>
+		</group>
+	</view>
+	<view name='StreetLight_12_Transform' template='streetLights'>
+		<group name='StreetLamp_12'>
+			<property name='StreetLamp_12_translate'/>
+			<property name='StreetLamp_12_rotate'/>
+		</group>
+	</view>
+	<view name='StreetLight_13_Transform' template='streetLights'>
+		<group name='StreetLamp_13'>
+			<property name='StreetLamp_13_translate'/>
+			<property name='StreetLamp_13_rotate'/>
+		</group>
+	</view>
+	<view name='StreetLight_14_Transform' template='streetLights'>
+		<group name='StreetLamp_14'>
+			<property name='StreetLamp_14_translate'/>
+			<property name='StreetLamp_14_rotate'/>
+		</group>
+	</view>
+	<view name='StreetLight_15_Transform' template='streetLights'>
+		<group name='StreetLamp_15'>
+			<property name='StreetLamp_15_translate'/>
+			<property name='StreetLamp_15_rotate'/>
+		</group>
+	</view>
+	<view name='StreetLight_16_Transform' template='streetLights'>
+		<group name='StreetLamp_16'>
+			<property name='StreetLamp_16_translate'/>
+			<property name='StreetLamp_16_rotate'/>
+		</group>
+	</view>
+	<view name='StreetLight_1_Transform' template='streetLights'>
+		<group name='StreetLamp_1'>
+			<property name='StreetLamp_1_translate'/>
+			<property name='StreetLamp_1_rotate'/>
+		</group>
+	</view>
+	<view name='StreetLight_2_Transform' template='streetLights'>
+		<group name='StreetLamp_2'>
+			<property name='StreetLamp_2_translate'/>
+			<property name='StreetLamp_2_rotate'/>
+		</group>
+	</view>
+	<view name='StreetLight_3_Transform' template='streetLights'>
+		<group name='StreetLamp_3'>
+			<property name='StreetLamp_3_translate'/>
+			<property name='StreetLamp_3_rotate'/>
+		</group>
+	</view>
+	<view name='StreetLight_4_Transform' template='streetLights'>
+		<group name='StreetLamp_4'>
+			<property name='StreetLamp_4_translate'/>
+			<property name='StreetLamp_4_rotate'/>
+		</group>
+	</view>
+	<view name='StreetLight_5_Transform' template='streetLights'>
+		<group name='StreetLamp_5'>
+			<property name='StreetLamp_5_translate'/>
+			<property name='StreetLamp_5_rotate'/>
+		</group>
+	</view>
+	<view name='StreetLight_6_Transform' template='streetLights'>
+		<group name='StreetLamp_6'>
+			<property name='StreetLamp_6_translate'/>
+			<property name='StreetLamp_6_rotate'/>
+		</group>
+	</view>
+	<view name='StreetLight_7_Transform' template='streetLights'>
+		<group name='StreetLamp_7'>
+			<property name='StreetLamp_7_translate'/>
+			<property name='StreetLamp_7_rotate'/>
+		</group>
+	</view>
+	<view name='StreetLight_8_Transform' template='streetLights'>
+		<group name='StreetLamp_8'>
+			<property name='StreetLamp_8_translate'/>
+			<property name='StreetLamp_8_rotate'/>
+		</group>
+	</view>
+	<view name='StreetLight_9_Transform' template='streetLights'>
+		<group name='StreetLamp_9'>
+			<property name='StreetLamp_9_translate'/>
+			<property name='StreetLamp_9_rotate'/>
+		</group>
+	</view>
+</templates>

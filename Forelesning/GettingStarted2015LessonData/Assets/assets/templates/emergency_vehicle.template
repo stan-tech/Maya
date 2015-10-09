@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<templates>
+	<using package='maya'/>
+	<template name='emergency_vehicle'>
+		<attribute name='Front_R_Door_Open' type='maya.double'>
+			<label>Front R Door Open</label>
+		</attribute>
+		<attribute name='Front_L_Door_Open' type='maya.double'>
+			<label>Front L Door Open</label>
+		</attribute>
+		<attribute name='Rear_R_Door_Open' type='maya.double'>
+			<label>Rear R Door Open</label>
+		</attribute>
+		<attribute name='Rear_L_Door_Open' type='maya.double'>
+			<label>Rear L Door Open</label>
+		</attribute>
+		<attribute name='front_wheel_turn' type='maya.double'>
+			<label>Front Wheel Turn</label>
+		</attribute>
+		<attribute name='wheel_spin' type='maya.double'>
+			<label>Wheel Spin</label>
+		</attribute>
+		<attribute name='interior_light_intensity' type='maya.float'>
+			<label>Interior Light Intensity</label>
+		</attribute>
+		<attribute name='siren_intensity' type='maya.double'>
+			<label>Siren Intensity</label>
+		</attribute>
+		<attribute name='headlight_intensity' type='maya.double'>
+			<label>Headlight Intensity</label>
+		</attribute>
+		<attribute name='toggle_headlights' type='maya.bool'>
+			<label>Toggle Headlights</label>
+		</attribute>
+		<attribute name='toggle_front_flashers' type='maya.bool'>
+			<label>Toggle Front Flashers</label>
+		</attribute>
+		<attribute name='toggle_rear_flashers' type='maya.bool'>
+			<label>Toggle Rear Flashers</label>
+		</attribute>
+		<attribute name='toggle_sirens' type='maya.bool'>
+			<label>Toggle Sirens</label>
+		</attribute>
+		<attribute name='toggle_interior_light' type='maya.bool'>
+			<label>Toggle Interior Light</label>
+		</attribute>
+		<attribute name='Fire_truck_AST' type='std.RootTransform'>
+			<label>Fire Truck AST</label>
+		</attribute>
+	</template>
+	<view name='Animator' template='emergency_vehicle'>
+		<property name='Front_R_Door_Open'/>
+		<property name='Front_L_Door_Open'/>
+		<property name='Rear_R_Door_Open'/>
+		<property name='Rear_L_Door_Open'/>
+		<property name='front_wheel_turn'/>
+		<property name='wheel_spin'/>
+		<property name='toggle_headlights'/>
+		<property name='toggle_front_flashers'/>
+		<property name='toggle_rear_flashers'/>
+		<property name='toggle_sirens'/>
+		<property name='toggle_interior_light'/>
+	</view>
+	<view name='Lighting' template='emergency_vehicle'>
+		
+		<property name='interior_light_intensity'/>
+		<property name='siren_intensity'/>
+		<property name='headlight_intensity'/>
+		
+	</view>
+</templates>
