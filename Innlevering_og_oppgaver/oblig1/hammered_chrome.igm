@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scenedata>
+	<material>
+		<name>hammered_chrome</name>
+		<phong>
+			<exponent>
+					<constant>1000.0000000000000000</constant>
+			</exponent>
+			<bump>
+				<shader>
+						<param>
+							<real>
+								<name>Bump</name>
+								<description>bump strength and direction</description>
+								<min>-0.0100000000000000</min>
+								<max>0.0100000000000000</max>
+								<value>0.0084000000000000</value>
+							</real>
+						</param>
+						<param>
+							<real>
+								<name>ScaleUV</name>
+								<description>hammer (inverse) scale</description>
+								<min>0.0100000000000000</min>
+								<max>100.0000000000000000</max>
+								<value>50.0000000000000000</value>
+							</real>
+						</param>
+						<param>
+							<real>
+								<name>Distribution</name>
+								<description>impacts distribution</description>
+								<min>0.0000000000000000</min>
+								<max>4.0000000000000000</max>
+								<value>0.7200000000000004</value>
+							</real>
+						</param>
+						<param>
+							<int>
+								<name>Shape</name>
+								<description>hammer shape</description>
+								<min>0</min>
+								<max>3</max>
+								<value>2</value>
+							</int>
+						</param>
+						<shader>
+              <![CDATA[
+						
+def voronoiDist_(vec2 coords) real:
+# mapped distance from voronoi points
+ dist	(
+	voronoi(coords, paramDistribution()),
+	coords	)
+
+def eval() real :
+#
+
+let
+ 
+scale = paramScaleUV()
+UVTex = tex()*scale
+dist1 = voronoiDist_(UVTex)
+shape = if # selector
+(
+	paramShape()==0,
+	-1.0/(dist1 + 0.5),
+	if
+	(
+		paramShape()==1,
+		dist1,
+		if
+		(
+			paramShape()==2,
+			dist1*dist1,
+			dist1*dist1*dist1
+		)
+	)
+)
+
+in
+
+shape * paramBump() / scale
+
+]]></shader>
+				</shader>
+			</bump>
+			<layer>0</layer>
+			<fresnel_scale>1.0000000000000000</fresnel_scale>
+			<ior>1.5000000000000000</ior>
+			<nk_data>nkdata/cr.nk</nk_data>
+		</phong>
+	</material>
+</scenedata>
